@@ -3,7 +3,7 @@ title: InputPhone
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **Input** for entering a phone number is an input field for easy entering a phone number using a [mask](/components/input-mask/). This input should help the user enter information correctly without any hesitation about the phone number format.
 
@@ -16,18 +16,18 @@ tabName: Design
 >
 > Our large-scale Checkout usability testing reveals that 89% of users are likely to enter numerical inputs in several different ways – evenwhen formatting examples are provided that display the site’s desired input format. Furthermore, during testing, a proportion of test subjects hesitated before they entered their data, as they worried that they would type it in a format the site wouldn’t validate – even on sites that accepted all formatting.
 
-@## Appearance
+## Appearance
 
 The input for entering the phone number has several display options depending on:
 
 - user's country and/or number format,
 - whether we need phone numbers of users from the same country.
 
-| Case | Appearance example  |
-| ------------------------------------------------------------------ | ------------------- |
-| We don't know the country and/or phone number format               | ![](static/input-phone-1.png) |
-| We know the country, but we don't know the phone number format     | ![](static/input-phone-2.png) |
-| We know the country and phone number format                        | ![](static/input-phone-3.png) |
+| Case                                                           | Appearance example            |
+| -------------------------------------------------------------- | ----------------------------- |
+| We don't know the country and/or phone number format           | ![](static/input-phone-1.png) |
+| We know the country, but we don't know the phone number format | ![](static/input-phone-2.png) |
+| We know the country and phone number format                    | ![](static/input-phone-3.png) |
 
 When we know the user's country, it is important to display flag of the country in the input – this helps us visually navigate through the entered data faster. _For example, in [Form](/patterns/form/) guide._
 
@@ -35,16 +35,16 @@ When we know the user's country, it is important to display flag of the country 
 
 For actual examples of inputs for entering a phone number, see the [Example tab](/components/input-phone/input-phone-code).
 
-@## Help instructions
+## Help instructions
 
 We recommend you to provide visible text instructions for inputs with constraints, such as a specific format for data.
 
-| Size (height in px) | Text size for the hint | Appearance example                  | Margins                                   |
-| ------------------- | ------------------- | ----------------------------------- | ----------------------------------------- |
+| Size (height in px) | Text size for the hint                   | Appearance example                     | Margins                                       |
+| ------------------- | ---------------------------------------- | -------------------------------------- | --------------------------------------------- |
 | M (28px)            | 12px (use `--fs-100`, `--lh-100` tokens) | ![](static/inputphone-help-text-m.png) | ![](static/inputphone-help-text-margin-m.png) |
 | L (40px)            | 14px (use `--fs-200`, `--lh-200` tokens) | ![](static/inputphone-help-text-l.png) | ![](static/inputphone-help-text-margin-l.png) |
 
-@## Interaction
+## Interaction
 
 > If the input contains some entered characters, the icon for the "clear all" operation appears.
 
@@ -63,14 +63,14 @@ We recommend you to provide visible text instructions for inputs with constraint
 
 ### We don't know the country and/or phone number format
 
-| Normal                                           | Focus                                                  | filled                                                  |
-| ------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- |
+| Normal                        | Focus                               | filled                               |
+| ----------------------------- | ----------------------------------- | ------------------------------------ |
 | ![](static/input-phone-1.png) | ![](static/input-phone-1-focus.png) | ![](static/input-phone-1-filled.png) |
 
 ### We know the country, but we don't know the phone number format
 
-|                       | Normal                                             | Focus                                                    | filled                                                    |
-| --------------------- | -------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------- |
+|                       | Normal                          | Focus                                 | filled                                 |
+| --------------------- | ------------------------------- | ------------------------------------- | -------------------------------------- |
 | One country           | ![](static/input-phone-2.png)   | ![](static/input-phone-2-focus.png)   | ![](static/input-phone-2-filled.png)   |
 | More than one country | ![](static/input-phone-2-2.png) | ![](static/input-phone-2-2-focus.png) | ![](static/input-phone-2-2-filled.png) |
 
@@ -78,12 +78,12 @@ We recommend you to provide visible text instructions for inputs with constraint
 
 This option is most suitable when you collect phones from users from one or a limited number of countries.
 
-|                       | Normal                                             | Focus                                                    | filled                                                    |
-| --------------------- | -------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------- |
+|                       | Normal                          | Focus                                 | filled                                 |
+| --------------------- | ------------------------------- | ------------------------------------- | -------------------------------------- |
 | One country           | ![](static/input-phone-3.png)   | ![](static/input-phone-3-focus.png)   | ![](static/input-phone-3-filled.png)   |
 | More than one country | ![](static/input-phone-3-2.png) | ![](static/input-phone-3-2-focus.png) | ![](static/input-phone-3-2-filled.png) |
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 It is recommended that the width of the input field for entering the phone number to be as clear as possible for the user to know how much information they need to enter. Most often, this width does not exceed 160px-250px for all input sizes.
 

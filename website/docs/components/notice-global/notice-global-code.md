@@ -2,7 +2,7 @@
 title: Example
 ---
 
-@## Base
+## Base
 
 It's an example of base use.
 

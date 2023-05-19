@@ -6,7 +6,7 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **FeaturePopover** is a component that draws users’ attention to the interface element. _For example, it may point to a new function or suggest the next step to the user._
 
@@ -17,7 +17,7 @@ tabName: Design
 - It is necessary to draw the user’s attention to the interface element.
 - It is necessary to point at the next step for the user.
 
-@## Appearance
+## Appearance
 
 ### The component consists of
 
@@ -62,16 +62,16 @@ The style of the container is unified in order to keep it recognizable.
 
 The animated dot is placed next to the control that you want to draw attention to. Try to avoid situations where the control has both [Dot](/components/dot/) and FeaturePopover. Otherwise, you will have visual mess, namely two dots on the component😎
 
-@## Types
+## Types
 
 There are two types of the FeaturePopover: basic and extended. **They differ in maximum width and illustration.**
 
-| Type                                                                                                                                    | Appearance                                       |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **Basic**. The illustration is the same for all FeaturePopovers of this type. The area to be illustrated is 40 * 40px.                 | ![](static/spotlight-default.png) |
-| **Extended**. The additional Illustration captures the essence of the message metaphorically. The area to be illustrated is 80 * 80px. | ![](static/spotlight-big.png)     |
+| Type                                                                                                                                    | Appearance                        |
+| --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| **Basic**. The illustration is the same for all FeaturePopovers of this type. The area to be illustrated is 40 \* 40px.                 | ![](static/spotlight-default.png) |
+| **Extended**. The additional Illustration captures the essence of the message metaphorically. The area to be illustrated is 80 \* 80px. | ![](static/spotlight-big.png)     |
 
-@## Themes
+## Themes
 
 The FeaturePopover theme is used on both light and dark backgrounds.
 
@@ -80,7 +80,7 @@ The FeaturePopover theme is used on both light and dark backgrounds.
 | Container | `--box-shadow-popper` for box-shadow, `--bg-primary-highlight` for background-color |
 | Spot      | `--bg-primary-highlight` for background-color                                       |
 
-@## Sizes and indents
+## Sizes and indents
 
 Basic and extended types have maximum width:
 
@@ -112,11 +112,11 @@ The dot is always located in the lower corner of the control.
 
 ![](static/spotlight-sizes.png)
 
-@## Appearance and hiding
+## Appearance and hiding
 
 The element appears according to the timings you prescribe. It is hidden only by clicking on the buttons or the closing icon, or by clicking on the highlighted interface element.
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 > Important! Before using FeaturePopover ask yourself whether your new feature is so good that you want to focus on it. 😏
 
@@ -136,7 +136,7 @@ The element appears according to the timings you prescribe. It is hidden only by
 - **Do not show FeaturePopover if the user has already interacted with the advertised item.**
 - FeaturePopover should be shown only once (exception for cases where user clicked **Show later**). If the user has closed FeaturePopover or clicked **Got it**, do not show this message to him again
 
-@## Recommendations for texts
+## Recommendations for texts
 
 ### The title
 
@@ -150,7 +150,7 @@ The element appears according to the timings you prescribe. It is hidden only by
 - Describe a feature or a tip with one or two sentences.
 - Tell not only about the function itself, but also about how to use it and why the user needs it.
 
-@## FeaturePopover as part of onboarding.
+## FeaturePopover as part of onboarding.
 
 > **Important!** Show onboarding only to new users who have never seen it. If the user has already seen onboarding once, IT IS NOT NECESSARY to show it again.
 >

@@ -6,7 +6,7 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **Checkbox** is a component for selecting one or more values or options.
 
@@ -16,36 +16,36 @@ The checkbox component is used to select one or more options from a list. It dis
 
 Multi-selection, which is commonly used in filters, is the exception to the image above.
 
-@## Sizes and margins
+## Sizes and margins
 
 ### Sizes
 
 Checkbox has two sizes: M and L. The text label is always positioned to the right of the checkbox.
 
-| Size (px)        | Appearance example      |
-| ---------------- | ----------------------- |
-| M (16px * 16px) | ![](static/size-m.png) |
-| L (20px * 20px) | ![](static/size-l.png) |
+| Size (px)        | Appearance example     |
+| ---------------- | ---------------------- |
+| M (16px \* 16px) | ![](static/size-m.png) |
+| L (20px \* 20px) | ![](static/size-l.png) |
 
 ### Margins
 
 The spacing between options may differ based on the context in which they are used. To maintain consistency, it's recommended to use margins that are multiples of 4. The default margins are displayed below.
 
-| Size (px)        | Margins      |
-| ---------------- | ----------------------- |
-| M (16px * 16px) | ![](static/margins-m.png) ![](static/vert-m.png) |
-| L (20px * 20px) | ![](static/margins-l.png) ![](static/vert-l.png) |
+| Size (px)        | Margins                                          |
+| ---------------- | ------------------------------------------------ |
+| M (16px \* 16px) | ![](static/margins-m.png) ![](static/vert-m.png) |
+| L (20px \* 20px) | ![](static/margins-l.png) ![](static/vert-l.png) |
 
-@## Checkbox with a paragraph
+## Checkbox with a paragraph
 
 All checkbox sizes can be used with the corresponding text paragraphs.
 
-| Checkbox size (px) | Paragraph size (px)                        | Appearance example                |
-| ------------------ | -------------------------------------- | -------------------------------------- |
-| M (16px * 16px)   | 14px (use `--fs-200`, `--lh-200` tokens) | ![](static/paragraph-m.png) |
-| L (20px * 20px)   | 16px (use `--fs-300`, `--lh-300` tokens) | ![](static/paragraph-l.png) |
+| Checkbox size (px) | Paragraph size (px)                      | Appearance example          |
+| ------------------ | ---------------------------------------- | --------------------------- |
+| M (16px \* 16px)   | 14px (use `--fs-200`, `--lh-200` tokens) | ![](static/paragraph-m.png) |
+| L (20px \* 20px)   | 16px (use `--fs-300`, `--lh-300` tokens) | ![](static/paragraph-l.png) |
 
-@## Checkbox with Info icon
+## Checkbox with Info icon
 
 Add an `Info` icon next to the checkbox label to provide more information about checkbox's purpose. User can hover over the icon to see a tooltip with additional details.
 
@@ -55,7 +55,7 @@ Add an `Info` icon next to the checkbox label to provide more information about 
 
 ![](static/info-icon-margin.png)
 
-@## Checkbox with a link inside
+## Checkbox with a link inside
 
 Text label may contain a [Link](/components/link).
 
@@ -65,7 +65,7 @@ Text label may contain a [Link](/components/link).
 
 ![](static/link-hover-zone.png)
 
-@## Interaction
+## Interaction
 
 - Hovering over the "Checkbox and text" area changes the cursor to a pointer.
 - Clicking anywhere on the "Checkbox and text" area changes the state of the checkbox.
@@ -74,17 +74,17 @@ Text label may contain a [Link](/components/link).
 
 ### States
 
-| State                 | Appearance example                            |
-| --------------------- | --------------------------------------------- |
-| Normal                | ![](static/state-unchecked.png)               |
-| Checked               | ![](static/state-checked.png)                 |
-| Indeterminate         | ![](static/state-indetermenate.png)           |
-| Invalid               | ![](static/state-invalid.png)                 |
-| Checked invalid       | ![](static/state-checked-invalid.png)         |
-| Indeterminate invalid | ![](static/state-indetermenate-invalid.png)   |
-| Disabled              | ![](static/state-disabled.png)                |
+| State                 | Appearance example                          |
+| --------------------- | ------------------------------------------- |
+| Normal                | ![](static/state-unchecked.png)             |
+| Checked               | ![](static/state-checked.png)               |
+| Indeterminate         | ![](static/state-indetermenate.png)         |
+| Invalid               | ![](static/state-invalid.png)               |
+| Checked invalid       | ![](static/state-checked-invalid.png)       |
+| Indeterminate invalid | ![](static/state-indetermenate-invalid.png) |
+| Disabled              | ![](static/state-disabled.png)              |
 
-@## Checkbox group
+## Checkbox group
 
 To save the user's time, use the "Select all" and "Deselect all" options for checkbox groups with more than 6-7 options. These buttons will select or deselect all checkboxes in the group:
 
@@ -115,7 +115,7 @@ When user clicks on a checkbox with the `indeterminate` state, all sub-level che
 
 ![](static/select-all.png) ![](static/deselect-all.png)
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 - **Make lists of options vertically and left aligned**, one option per line. If using a horizontal layout, ensure that there is enough space between options to differentiate them.
 

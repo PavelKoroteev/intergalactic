@@ -4,7 +4,7 @@ fileSource: notice-bubble
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **NoticeBubble (Alert)** is a notification on completed action, beginning or ending of a process.
 
@@ -28,19 +28,19 @@ Let's see the differences between NoticeBubble, [Notice](/components/notice/) an
 - images (holiday alerts are the exception);
 - more than two buttons.
 
-@## When to use
+## When to use
 
 - Notification of the beginning or completion of a process that is hidden from the user.
 - Changes to content in other parts of the report that are not currently being viewed. _For example, starting a campaign collection, completing a campaign collection, or saving an event in drafts (this is a list that is invisible to the user. This means that a part of the content was changed, but not in front of the user's eyes when it remains unchanged on the open event card), etc._
 - Notification about an action which causes changes to the content on the page. _For example, deleting an item using `Undo` button._
 - Notification about moving an item and removing it from its current position to other reports, lists, and tables (also applies to content changes).
 
-@## When to avoid
+## When to avoid
 
 - Displaying a process with spinner or progress bar. The exception is the no-network condition. If you need to display the process, use the [progress bar](/components/progress-bar/).
 - If there are any visible instant interface changes. _For example, adding a tag to an item – the tag appears, adding an item to favorites – changing the icon color, adding an item to a table/list._
 
-@## Types
+## Types
 
 ### Default
 
@@ -92,7 +92,7 @@ For those interfaces which can't monitor the network connection themselves and n
 
 A notification that is designed for various events, holidays, etc. You can animate elements inside such notification.
 
-@## Sizes, margins and paddings
+## Sizes, margins and paddings
 
 - It appears in the upper-right corner of the report under the main website menu with 12px margins on the top and right.
 - When scrolling, it remains hanging in the upper-right corner with the same margins.
@@ -113,13 +113,13 @@ A notification that is designed for various events, holidays, etc. You can anima
 
 ![](static/paddings-2.png)
 
-@## Animation
+## Animation
 
 - The notification slides from the right edge to the left and closes via `fade`.
 - The alert closes on a timer after 5 seconds. The delay value can be changed depending on the amount of text in the alert.
 - Optionally, some notifications can be left until the user closes them.
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 ### General
 

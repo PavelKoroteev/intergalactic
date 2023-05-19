@@ -7,7 +7,7 @@ fileSource: select
 
 The component is a wrap over [@semcore/ui/dropdown-menu](/components/dropdown-menu) with the functionality of list item selection.
 
-@## Basic use
+## Basic use
 
 In the simplest case, it is enough to pass an array of options to the select to implement it. `options` is an array of objects with the following fields:
 
@@ -17,13 +17,13 @@ In the simplest case, it is enough to pass an array of options to the select to 
 
 @example basic
 
-@## Controlled and uncontrolled modes
+## Controlled and uncontrolled modes
 
 The component may operate in either controlled or uncontrolled mode.
 
 @example controll-uncontroll
 
-@## Component customization
+## Component customization
 
 When it is necessary to replace the trigger, you can pass the desired component to the `tag` of the select. Property will get to `Select.Trigger` and replace its render.
 
@@ -33,7 +33,7 @@ In cases when you need deeper customization, "unfold" the component into constit
 
 @example custom-trigger
 
-@## Customizing the dropdown-menu
+## Customizing the dropdown-menu
 
 As with [@semcore/ui/dropdown-menu](/components/dropdown-menu), the dropdown menu can be implemented in two ways:
 
@@ -50,7 +50,7 @@ The example below shows how to insert [Notice](/components/notice/) in the Selec
 
 @example notice
 
-@## Options
+## Options
 
 The component has several variants of options layout:
 
@@ -61,7 +61,7 @@ The component has several variants of options layout:
 
 @example options
 
-@## Options filtration
+## Options filtration
 
 `InputSearch` is added to Select for filtration of elements of the list. This is a stylized wrap over the [Input](/components/input/) component.
 
@@ -71,7 +71,7 @@ The example below shows one of the ways to implement filtering.
 
 @example filtering
 
-@## Multiselect
+## Multiselect
 
 The component has the ability to select several options. This functionality can be enabled by using `multiselect` property.
 
@@ -79,13 +79,13 @@ The layout of options inside the component will be changed to `Select.OptionChec
 
 @example multiselect
 
-@## Sorting Multiselect options
+## Sorting Multiselect options
 
 The example below shows one of the ways to sort the selected options.
 
 @example multiselect-sorted
 
-@## Render-function
+## Render-function
 
 As with many of our components, you can access the logic of the component by passing a render-function to it.
 

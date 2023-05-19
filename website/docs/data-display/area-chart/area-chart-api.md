@@ -3,7 +3,7 @@ title: API
 fileSource: d3-chart
 ---
 
-@## D3 API
+## D3 API
 
 It have children components `Dots, Null`.
 
@@ -18,7 +18,7 @@ import { Area } from '@semcore/ui/d3-chart';
 
 @typescript IAreaProps
 
-@## Recharts API
+## Recharts API
 
 ```js
 import { AreaChart } from '@semcore/chart';

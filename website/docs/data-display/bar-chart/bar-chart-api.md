@@ -3,7 +3,7 @@ title: API
 fileSource: d3-chart
 ---
 
-@## D3 API
+## D3 API
 
 Chart Bar.
 
@@ -13,7 +13,7 @@ import { Bar } from '@semcore/ui/d3-chart';
 
 @typescript IBarProps
 
-@## Recharts API
+## Recharts API
 
 ```js
 import { BarChart } from '@semcore/chart';

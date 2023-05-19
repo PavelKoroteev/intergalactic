@@ -4,7 +4,7 @@ fileSource: modal
 tabName: Design
 ---
 
-@## Description
+## Description
 
 A **confirmation modal dialog** asks the user if they're sure that they want to proceed with the command that they've just issued to the system. It informs the user about potential problems or data loss and gives them a chance to reconsider the decision.
 
@@ -12,7 +12,7 @@ The dialog must have a clear descriptive message that explains what is happening
 
 The dialog is built using the [Modal](/components/modal/) component.
 
-@## Component appearing
+## Component appearing
 
 > Description of the component for modal windows can be found in the [Modal](/components/modal/). For cancel actions see [NoticeBubble](/components/notice-bubble/).
 
@@ -31,11 +31,11 @@ When the user is about to take an action that leads to serious consequences, for
 
 Try to avoid situations when the content in a modal dialog requires a scrollbar.
 
-@## Paddings
+## Paddings
 
 ![](static/confirm-dialog-paddings.png)
 
-@## Other recommendations
+## Other recommendations
 
 For more recommendations, refer to the [article from Nielsen Norman Group](https://www.nngroup.com/articles/confirmation-dialog/).
 

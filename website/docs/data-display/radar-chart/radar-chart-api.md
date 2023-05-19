@@ -3,72 +3,72 @@ title: API
 fileSource: d3-chart
 ---
 
-@## D3 API
+## D3 API
 
 ```js
 import { Radar } from '@semcore/ui/d3-chart';
 
-<Radar/>;
+<Radar />;
 ```
 
 @typescript IRadarProps
 
-@## Radar.Axis
+## Radar.Axis
 
 ```js
 import { Radar } from '@semcore/ui/d3-chart';
 
-<Radar.Axis/>;
+<Radar.Axis />;
 ```
 
 @typescript IRadarAxisProps
 
-@## Radar.Axis.Labels
+## Radar.Axis.Labels
 
 ```js
 import { Radar } from '@semcore/ui/d3-chart';
 
-<Radar.Axis.Labels/>;
+<Radar.Axis.Labels />;
 ```
 
 @typescript IRadarAxisLabelsProps
 
-@## Radar.Axis.Ticks
+## Radar.Axis.Ticks
 
 ```js
 import { Radar } from '@semcore/ui/d3-chart';
 
-<Radar.Axis.Ticks/>;
+<Radar.Axis.Ticks />;
 ```
 
 @typescript IRadarAxisTicksProps
 
-@## Radar.Polygon
+## Radar.Polygon
 
 ```js
 import { Radar } from '@semcore/ui/d3-chart';
 
-<Radar.Polygon/>;
+<Radar.Polygon />;
 ```
 
 @typescript IRadialPolygonProps
 
-@## Radar.Polygon.Line
+## Radar.Polygon.Line
 
 ```js
 import { Radar } from '@semcore/ui/d3-chart';
 
-<Radar.Polygon.Line/>;
+<Radar.Polygon.Line />;
 ```
 
 @typescript IRadialPolygonLineProps
 
-@## Radar.Polygon.Dots
+## Radar.Polygon.Dots
 
 ```js
 import { Radar } from '@semcore/ui/d3-chart';
 
-<Radar.Polygon.Dots/>;
+<Radar.Polygon.Dots />;
 ```
 
 @typescript IRadialPolygonDotsProps

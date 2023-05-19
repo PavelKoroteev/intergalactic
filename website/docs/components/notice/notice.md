@@ -8,7 +8,7 @@ tabName: Design
 
 > In the last update instead of using `use=primary/secondary` component was divided into two - Notice and [NoticeGlobal](/components/notice-global/). This was done to make it easier to use.
 
-@## Description
+## Description
 
 **Notice** is a component for messages about events related to the user's work in the interface.
 
@@ -44,7 +44,7 @@ Notice shall meet four criteria. If it doesn't respond to at least one, it's not
 
 ![](static/notice-max-button.png)
 
-@## Sizes, paddings and margins
+## Sizes, paddings and margins
 
 You can use the notice as a self-contained component, or include it inside other components. _For example, it can be used inside dropdowns and modal windows._
 
@@ -57,7 +57,7 @@ Notice internal paddings repeat the internal paddings of the component the notic
 ![](static/notice-component.png)
 ![](static/notice-component-2.png)
 
-@## Maximum text width
+## Maximum text width
 
 Do not stretch the text to the full width of the notice, especially if the notice extends to the entire width of the screen. In this form, the text is inconvenient to read.
 
@@ -65,7 +65,7 @@ Do not stretch the text to the full width of the notice, especially if the notic
 
 ![](static/notice-text-yes-no.png)
 
-@## Notice themes
+## Notice themes
 
 ### Info
 
@@ -94,7 +94,7 @@ Use it for a serious error/problem/action that does not allow the user to contin
 
 ![](static/danger.png)
 
-@## Placement in the interface
+## Placement in the interface
 
 ### On page
 
@@ -118,7 +118,7 @@ If the notice refers only to the component, place it at the bottom or top of the
 
 ![](static/notice-component-yes-no.png)
 
-@## Interaction
+## Interaction
 
 ### Opening
 
@@ -143,7 +143,7 @@ Since the notice is a temporary notification, it should have a preset "lifespan"
 
 By clicking on the closing icon/closing link, the notice shall close smoothly with `fade-out of 250ms`. The page content is pulled to the notice place within 250ms.
 
-@## Custom notice
+## Custom notice
 
 These are the notices that have their own rules and their styles differ from preset themes.
 
@@ -165,7 +165,7 @@ The advertising notice differs from the regular one by advertising illustrations
 
 ![](static/notice-no.png)
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 ### General
 

@@ -6,18 +6,18 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **SpinContainer** is a component for displaying [Spin](/components/spin/) around a component/widget/page.
 
-@## Appearance
+## Appearance
 
 - Spin is always placed in the center of the SpinContainer.
 - For overlay under the SpinContainer use `--overlay-limitation-secondary` token.
 
 ![](static/spincontainer-dropdown.png)
 
-@## Fixed Spin with Sticky (deprecated)
+## Fixed Spin with Sticky (deprecated)
 
 For big blocks, widgets and pages, you can wrap Spin in [Sticky](/components/sticky/) component, so the loading message can be always seen in the user's viewport.
 

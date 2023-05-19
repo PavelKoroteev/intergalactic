@@ -3,7 +3,7 @@ title: API
 fileSource: switch
 ---
 
-@## Switch
+## Switch
 
 ```jsx
 import Switch from '@semcore/ui/switch';
@@ -12,7 +12,7 @@ import Switch from '@semcore/ui/switch';
 
 @typescript ISwitchProps
 
-@## Switch.Value
+## Switch.Value
 
 ```jsx
 import Switch from '@semcore/ui/switch';
@@ -21,7 +21,7 @@ import Switch from '@semcore/ui/switch';
 
 @typescript ISwitchValueProps
 
-@## Switch.Addon
+## Switch.Addon
 
 ```jsx
 import Switch from '@semcore/ui/switch';

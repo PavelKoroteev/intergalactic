@@ -3,7 +3,7 @@ title: API
 fileSource: skeleton
 ---
 
-@## Skeleton
+## Skeleton
 
 ```jsx
 import Skeleton from '@semcore/ui/skeleton';
@@ -12,7 +12,7 @@ import Skeleton from '@semcore/ui/skeleton';
 
 @typescript ISkeletonProps
 
-@## Skeleton.Text
+## Skeleton.Text
 
 ```jsx
 import Skeleton from '@semcore/ui/skeleton';
@@ -21,7 +21,7 @@ import Skeleton from '@semcore/ui/skeleton';
 
 @typescript ISkeletonTextProps
 
-@## AreaChartSkeleton
+## AreaChartSkeleton
 
 ```jsx
 import { AreaChartSkeleton } from '@semcore/ui/skeleton';
@@ -29,7 +29,7 @@ import { AreaChartSkeleton } from '@semcore/ui/skeleton';
 
 See an example of use in the [Area chart](/data-display/area-chart/area-chart-recharts-code/#ac26f2) component.
 
-@## BarChartSkeleton
+## BarChartSkeleton
 
 ```jsx
 import { BarChartSkeleton } from '@semcore/ui/skeleton';
@@ -37,7 +37,7 @@ import { BarChartSkeleton } from '@semcore/ui/skeleton';
 
 See an example of use in the [Bar chart](/data-display/bar-chart/bar-chart-recharts-code/#ac26f2) component.
 
-@## PieChartSkeleton
+## PieChartSkeleton
 
 ```jsx
 import { PieChartSkeleton } from '@semcore/ui/skeleton';
@@ -45,7 +45,7 @@ import { PieChartSkeleton } from '@semcore/ui/skeleton';
 
 See an example of use in the [Donut chart](/data-display/donut-chart/donut-chart-recharts-code/#ac26f2) component.
 
-@## HistogramChartSkeleton
+## HistogramChartSkeleton
 
 ```jsx
 import { HistogramChartSkeleton } from '@semcore/ui/skeleton';
@@ -53,7 +53,7 @@ import { HistogramChartSkeleton } from '@semcore/ui/skeleton';
 
 See an example of use in the [Histogram chart](/data-display/histogram-chart/histogram-chart-code/#ac26f2) component.
 
-@## LineChartSkeleton
+## LineChartSkeleton
 
 ```jsx
 import { LineChartSkeleton } from '@semcore/ui/skeleton';
@@ -61,7 +61,7 @@ import { LineChartSkeleton } from '@semcore/ui/skeleton';
 
 See an example of use in the [Line chart](/data-display/line-chart/line-chart-recharts-code/#ac26f2) component.
 
-@## VennChartSkeleton
+## VennChartSkeleton
 
 ```jsx
 import { VennChartSkeleton } from '@semcore/ui/skeleton';

@@ -6,11 +6,11 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **Link** is a control that links to another web page or element. Links can be internal or external. It is one of the "quietest" control in the [visual loudness scale](/core-principles/visual-loudness-scale) guide.
 
-@## Appearance
+## Appearance
 
 **Default link** is an accent control that links to another web page.
 
@@ -18,29 +18,29 @@ tabName: Design
 
 **Custom link** is a link the functionality and visual appearance of which may differ from the default one. _For example, these are clickable link-numbers that are not underlined by hover and may have a different color from our palette in accordance with the chart that they present._ When creating a custom link, use the rules for default links as basic rules. **Don't use too many custom links in your interface.**
 
-@## Sizes and indents
+## Sizes and indents
 
 You can add addons before and after the link text. Addons have 4px margin from the link text.
 
 - The icon shall match the meaning of the action that will be performed after clicking the link.
 - In some cases, if a click on a link with an icon causes a time consuming process, you can change the icon to [Spin](/components/spin/).
 
-| Text size       | Appearance                       | Icon size |
-| --------------- | -------------------------------- | --------- |
+| Text size       | Appearance             | Icon size |
+| --------------- | ---------------------- | --------- |
 | 12-16px         | ![](static/link-m.png) | M         |
 | 20px and larger | ![](static/link-l.png) | L         |
 
-@## Interaction
+## Interaction
 
 ### Default link
 
-| State         | Appearance                                        | Description                                                                                                                                                                                                     | Cursor    |
-| ------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| Normal        | ![](static/default.png)                     | Link use `--text-link` token for color, without underline.                                                                                                                                                      | `pointer` |
-| Active/hover  | ![](static/hover-active.png)                 | Link changes its color to `--text-link-hover-active`. A solid underline appears. If the link is used together with the icon, then the icon will change its color with the text – they have the same active zone. | `pointer` |
-| Disabled      | ![](static/disabled.png)                  | The component changes its transparency from 100% to 30%. Use this state as a last resort and be sure to add tooltip with a message to the `disabled` link.                                                      | `default` |
-| Visited       | ![](static/default-visited.png)            | Link use `--text-link-visited` token for color. This state is an optional.                                                                                                                                      | `pointer` |
-| Visited (hover) | ![](static/hover-active-visited.png) | Link use `--text-link-visited` token for color with a solid underline. This state is optional.                                                                                                                  | `pointer` |
+| State           | Appearance                           | Description                                                                                                                                                                                                      | Cursor    |
+| --------------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| Normal          | ![](static/default.png)              | Link use `--text-link` token for color, without underline.                                                                                                                                                       | `pointer` |
+| Active/hover    | ![](static/hover-active.png)         | Link changes its color to `--text-link-hover-active`. A solid underline appears. If the link is used together with the icon, then the icon will change its color with the text – they have the same active zone. | `pointer` |
+| Disabled        | ![](static/disabled.png)             | The component changes its transparency from 100% to 30%. Use this state as a last resort and be sure to add tooltip with a message to the `disabled` link.                                                       | `default` |
+| Visited         | ![](static/default-visited.png)      | Link use `--text-link-visited` token for color. This state is an optional.                                                                                                                                       | `pointer` |
+| Visited (hover) | ![](static/hover-active-visited.png) | Link use `--text-link-visited` token for color with a solid underline. This state is optional.                                                                                                                   | `pointer` |
 
 <!--
 Hided this section because it's for the dark theme.
@@ -55,13 +55,13 @@ Hided this section because it's for the dark theme.
 | visited       | ![visited](static/default-invert-visited.png)            | Link has `--purple-500` color. This state is an optional.                                                                                                                                     | `pointer` |
 | visited hover | ![visited-hover](static/hover-active-invert-visited.png) | Link has `--purple-500` color with a solid underline. This state is optional.                                                                                                                 | `pointer` | -->
 
-@## Links on a dark/colored background
+## Links on a dark/colored background
 
 Default link can be used on a colored background of the [Notice](/components/notice/).
 
 ![](static/default-yes.png)
 
-@## Link text and target zone
+## Link text and target zone
 
 > _Link sizes should be generous. Large link sizes make it easier for users with low coordination or on mobile devices to activate links. Link size consideration is most important for links that are not contained within blocks or paragraphs of text, such as call to action links. Links should be at least 44px wide and 22px tall._
 >
@@ -69,7 +69,7 @@ Default link can be used on a colored background of the [Notice](/components/not
 >
 > [Yale University article about the accessible links](https://usability.yale.edu/web-accessibility/articles/links#other-design-considerations)
 >
-If clicking on a link takes the user away from the page or opens a modal window, then it should be clear from the name of the link what kind of page / modal window it will be. Use an infinitive ("What should be done?") for the link name.
+> If clicking on a link takes the user away from the page or opens a modal window, then it should be clear from the name of the link what kind of page / modal window it will be. Use an infinitive ("What should be done?") for the link name.
 
 ![](static/name-example-1.png)
 
@@ -97,7 +97,7 @@ If the link spans two lines, the cursor should not change in the interline area 
 
 ![](static/name-example-7.png)
 
-@## Margins between icons
+## Margins between icons
 
 If you want to place links in one line, the margin between them must be a multiple of 4px:
 
@@ -106,7 +106,7 @@ If you want to place links in one line, the margin between them must be a multip
 
 ![](static/link-margin.png)
 
-@## Default link or Hint link?
+## Default link or Hint link?
 
 > Find detailed information on the hint link in the [Typography guide](/style/typography/#hints_hint_links).
 
@@ -124,19 +124,19 @@ If you want to place links in one line, the margin between them must be a multip
 | Opening the full text on the same page | ❌                                   | ✅        |
 | Tooltip on click/hover                 | ❌                                   | ✅        |
 
-@## Links in tables
+## Links in tables
 
 - If there is very little space in the interface, you can use a link instead of button in the table. If there is enough space in the table, use [tertiary buttons](/components/button/).
 - Use 14px links in table rows. If the link is an URL with a link to an external page, then be sure to put the `LinkExternal` icon with `M` size and `--icon-secondary-neutral` color next to it. It should always have `margin-left: var(--spacing-1x)`.
 
 ![](static/table-yes-no.png)
 
-@## External links
+## External links
 
 > External links always open in a new tab.
 
-|                                                                                                                   | Transitions inside the product are also possible | There is a transition to an external resource | Appearance example                                                                                                  |
-| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+|                                                                                                                   | Transitions inside the product are also possible | There is a transition to an external resource | Appearance example                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | If the link is an URL that leads inside the product.                                                              | ✅                                               | ❌                                            | In this case, you don't need to put `LinkExternal` icon next to the link. ![](static/link-example-1.png) |
 | If the link is an URL that leads to an external resource. And there is no transition inside the product.          | ❌                                               | ✅                                            | ![](static/link-example-2.png)                                                                           |
 | If the link is an URL that leads inside the product, and has an icon next to it for opening an external resource. | ✅                                               | ✅                                            | ![](static/link-example-3.png)                                                                           |
@@ -148,7 +148,7 @@ If you want to place links in one line, the margin between them must be a multip
 - When hovering over the icon it shall change color to `--icon-secondary-neutral-hover-active`.
 - If for some reason you need to highlight the external resource icon, use link styles for it.
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 Don't use link component for the text that doesn't lead to another page or perform an action. Do not mislead users.
 

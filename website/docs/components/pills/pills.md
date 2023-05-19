@@ -6,17 +6,17 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **Pills** is a component used for:
 
 - switching of states (tabs/views/screens with uniform content);
 - filtering data in lists/tables/graphs.
 
-@## Sizes and paddings
+## Sizes and paddings
 
-| Size (height in px) | Paddings                               |
-| ------------------- | -------------------------------------- |
+| Size (height in px) | Paddings                         |
+| ------------------- | -------------------------------- |
 | L (40px)            | ![](static/pills-paddings-L.png) |
 | M (28px)            | ![](static/pills-paddings-M.png) |
 
@@ -25,7 +25,7 @@ Addons (icon, flag, badge, counter) have the same padding as the addons inside t
 ![](static/badge-paddings.png)
 ![](static/counter-paddings.png)
 
-@## Types
+## Types
 
 ### Default pills
 
@@ -46,24 +46,24 @@ In some products, the pills can act as a block with shared metrics. Pills can be
 
 Note that this type is design-only yet.
 
-| State  | Appearance                                       |
-| ------ | ------------------------------------------------ |
+| State  | Appearance                       |
+| ------ | -------------------------------- |
 | Normal | ![](static/pills-add-normal.png) |
-| Hover  | ![](static/pills-add-hover.png)     |
-| Active | ![](static/pills-add-active.png)    |
+| Hover  | ![](static/pills-add-hover.png)  |
+| Active | ![](static/pills-add-active.png) |
 
-@## Interaction
+## Interaction
 
-| State                                  | Appearance                                   |
-| -------------------------------------- | -------------------------------------------- |
+| State                                  | Appearance                     |
+| -------------------------------------- | ------------------------------ |
 | Skeleton (initial loading of the page) | ![](static/pills-skeleton.png) |
-| Normal, active                         | ![](static/normal_active.png)   |
-| Hover                                  | ![](static/hover.png)            |
-| Disabled                               | ![](static/disabled.png)      |
-| Disabled pill                          | ![](static/disabled-pill.png) |
+| Normal, active                         | ![](static/normal_active.png)  |
+| Hover                                  | ![](static/hover.png)          |
+| Disabled                               | ![](static/disabled.png)       |
+| Disabled pill                          | ![](static/disabled-pill.png)  |
 | Loading                                | ![](static/loading.png)        |
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 Pills are used for:
 

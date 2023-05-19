@@ -6,7 +6,7 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **Pagination** is a component with a group of controls for navigation through the long list of data.
 
@@ -14,7 +14,7 @@ tabName: Design
 
 It is recommended to use pagination in tables, as well as in a long list of data which is comfortable to be looked page by page.
 
-@## Component composition
+## Component composition
 
 **Pagination consists of:**
 
@@ -25,7 +25,7 @@ It is recommended to use pagination in tables, as well as in a long list of data
 
 ![](static/default.png)
 
-@## Margins
+## Margins
 
 - Margins between the buttons are always 8px.
 - Margin between the different controls are 16px: between the buttons and the input for current page, between the input for current page and the select.
@@ -36,21 +36,21 @@ Margin from the table to the pagination is always 16px.
 
 ![](static/margin-top.png)
 
-@## Number of the rows
+## Number of the rows
 
 We have some recommendations for the table size:
 
 - Use minimum two user screens (± 2000 px) for the table.
 - Show maximum 100 lines (if the lines are two-line, then 50 lines etc.).
 
-@## Interaction
+## Interaction
 
 - The table should be scrolled up to the beginning when user moves between pages.
 - After sorting and filtration pagination always returns user to the first page.
 
-| Appearance                                         | Action                                                                                                                                            |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](static/secondary-button.png)  | Opens the first page                                                                                                                              |
+| Appearance                         | Action                                                                                                                                            |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](static/secondary-button.png)   | Opens the first page                                                                                                                              |
 | ![](static/secondary-button-2.png) | Opens the previous page                                                                                                                           |
 | ![](static/primary-button.png)     | Opens the next page                                                                                                                               |
 | ![](static/steps.png)              | When the input is in focus, the clickable `Return` icon with M size appears. By clicking it or pressing Enter the user moves to the entered page. |
@@ -63,7 +63,7 @@ The current page should be always displayed in the input:
 
 The link at the end of the pagination shows the total number of pages. User moves to the last page by clicking it.
 
-@## States and cases
+## States and cases
 
 ### User is on the first page
 
@@ -95,7 +95,7 @@ Use this state only if there is some data and there might be more data.
 
 Do not show pagination while loading.
 
-@## Optional states
+## Optional states
 
 #### Select for choosing the number of rows
 

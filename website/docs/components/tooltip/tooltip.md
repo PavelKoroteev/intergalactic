@@ -6,7 +6,7 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **Tooltip** is a component to display all sorts of tips. It's a wrapper over [Popper component](/utils/popper/).
 
@@ -16,19 +16,19 @@ Tooltip's differences from [Dropdown](/components/dropdown/):
 - It has an arrow that points to the trigger.
 - It contains only hints and additional information.
 
-@## Themes
+## Themes
 
 Tooltip has themes: `default`, `invert` for using on a dark background and `warning` for validation messages. In both cases, the text color changes to `--white` and the background color changes to the corresponding one.
 
 > In [3.1.0 version](/components/tooltip/tooltip-changelog/), you can set your own theme and change background color to custom.
 
-| Theme   | Appearance                                 | Styles                                                                                                                                 |
-| ------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Theme   | Appearance                    | Styles                                                                                                                              |
+| ------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Default | ![](static/default-theme.png) | `background-color: var(--tooltip-default)`, `border: 1px solid var(--border-secondary)`, `box-shadow: var(--box-shadow-popper)`     |
-| Invert  | ![](static/invert-theme.png)   | `background-color: var(--tooltip-invert)`, `border: 1px solid var(--border-tooltip-invert)`, `box-shadow: var(--box-shadow-popper)` |
-| Warning | ![](static/alert-theme.png)     | `background-color: var(--tooltip-warning)`, `border: 1px solid var(--border-danger-active)`, `box-shadow: var(--box-shadow-popper)` |
+| Invert  | ![](static/invert-theme.png)  | `background-color: var(--tooltip-invert)`, `border: 1px solid var(--border-tooltip-invert)`, `box-shadow: var(--box-shadow-popper)` |
+| Warning | ![](static/alert-theme.png)   | `background-color: var(--tooltip-warning)`, `border: 1px solid var(--border-danger-active)`, `box-shadow: var(--box-shadow-popper)` |
 
-@## Maximum width and offset
+## Maximum width and offset
 
 The basic tooltip has a maximum width – `max-width: 250px`. But you can set a different width if necessary.
 
@@ -38,7 +38,7 @@ The offset from the trigger to the tooltip is 4px.
 
 ![](static/tooltip-offset.png)
 
-@## Paddings and margins
+## Paddings and margins
 
 The content area has default padding – 12px.
 
@@ -64,7 +64,7 @@ To make tooltip data more readable we recommend you the following margins betwee
 
 ![](static/tooltip-margins.png)
 
-@## Placement
+## Placement
 
 - Tooltip is built with the [Popper.js](https://popper.js.org/) library. So you can change the placement of the component according to [Popper API](/utils/popper/popper-api/).
 
@@ -74,14 +74,14 @@ To make tooltip data more readable we recommend you the following margins betwee
 
 @example placement
 
-@## Interaction
+## Interaction
 
 For the tooltip trigger you can use a formatted text, table header, or interactive components such as [Icon](/style/icon/), [Link](/components/link/), [Button](/components/button/), etc.
 
 ### Appearance and hiding
 
-| Hidden                                                                   |                                |
-| ------------------------------------------------------------------------ | ------------------------------ |
+| Hidden                                                                   |                         |
+| ------------------------------------------------------------------------ | ----------------------- |
 | Cursor left the trigger                                                  | ![](static/hover-1.png) |
 | Cursor left the trigger or the tooltip itself (for tooltip with control) | ![](static/hover-2.png) |
 
@@ -94,7 +94,7 @@ Default values for tooltip appearance and hiding:
 
 If tooltip has controls inside, the time for hiding should be increased to `100ms`.
 
-@## Content
+## Content
 
 Tooltip usually contain unformatted text.
 
@@ -112,7 +112,7 @@ In some cases (e.g., for advertising purposes) you can format text and add other
 
 ![](static/tooltip-advanced-2.png)
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 Main recommendations:
 

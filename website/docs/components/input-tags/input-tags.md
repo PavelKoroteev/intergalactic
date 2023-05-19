@@ -6,22 +6,22 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **InputTags** is the input that wraps the entered information into tags. Often used together with the [Combobox](/components/auto-suggest/).
 
 This input is usually used for entering a large amount of homogeneous information in a single field. _For example, keywords or employee emails._
 
-@## Appearance
+## Appearance
 
 When tags overflow, the input increases in height by 1 text line.
 
-| Size                          | Appearance                   |                                | Margins                                |
+| Size                           | Appearance                   |                                | Margins                                |
 | ------------------------------ | ---------------------------- | ------------------------------ | -------------------------------------- |
 | L input is used with the L tag | ![l size](static/l-size.png) | ![l size](static/l-size-2.png) | ![l paddings](static/l-paddings-2.png) |
 | M input is used with the M tag | ![m size](static/m-size.png) | ![m size](static/m-size-2.png) | ![m paddings](static/m-paddings-2.png) |
 
-@## Tag colors
+## Tag colors
 
 > You can read more about tags in [Tag](/components/tag).
 
@@ -37,7 +37,7 @@ In some cases, you can use color tags if, for example, they are linked to differ
 
 ![color tags](static/color-tag.png)
 
-@## Interaction
+## Interaction
 
 In the input with tags, you can substitute either preset data from the combobox, or enter your own data (they are wrapped in tags if they have punctuation separators), or combine the first two input options.
 
@@ -49,7 +49,7 @@ When you focus on such an input, it opens a [Combobox](/components/auto-suggest/
 
 If such an input does not have pre-set data and the user can enter any data, this data is wrapped in a tag after punctuation separators as described below.
 
-@## Working with the keyboard
+## Working with the keyboard
 
 The text entered by the user is wrapped in a tag inside InputTags:
 
@@ -61,15 +61,15 @@ The text entered by the user is wrapped in a tag inside InputTags:
 
 > When wrapping, spaces before and after are cut.
 
-@## Text insertion
+## Text insertion
 
 After insertion, the text is broken by punctuation separators – comma, semicolon,“|”, `Tab` key.
 
-@## Deleting and editing a tag
+## Deleting and editing a tag
 
 If there is a tag in front of the cursor, when you press the delete key, the tag turns into plain text and you can edit and delete it.
 
-@## Long text in the tag
+## Long text in the tag
 
 > Note that this behavior is not recommended for fully accessible tag. The page content should be responsive and adaptable to small viewport widths, text magnification, and changes in text spacing.
 

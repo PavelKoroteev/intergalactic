@@ -2,7 +2,7 @@
 title: For designers
 ---
 
-@## Intergalactic Design System
+## Intergalactic Design System
 
 Here you will find a series of quick and handy guides for starting your product designs with Intergalactic Design System.
 
@@ -14,11 +14,11 @@ Here you will find a series of quick and handy guides for starting your product 
 
 @embedded_video https://www.loom.com/share/0e14e413ea314afda211d3845cc845f2
 
-@## How to contribute?
+## How to contribute?
 
 @embedded_video https://www.loom.com/share/2d935c96e823486384cf22142418a72b
 
-@## Principles
+## Principles
 
 @embedded_video https://www.loom.com/share/7fe17765621346ddbbf0b32c7d57d6bb
 
@@ -32,7 +32,7 @@ We follow these core principles when building our interfaces:
 
 <!-- See [Principles](/core-principles/principles/) if you want to dive deeper and learn more about them. -->
 
-@## Design tokens
+## Design tokens
 
 > **TL;DR or main thoughts**: Intergalactic design system has:
 >
@@ -45,7 +45,7 @@ Semantic tokens set refers to the base tokens. So changing the base tokens value
 
 Go to [Design tokens](/style/design-tokens) to learn more about the tokens and their usage.
 
-@## Typography
+## Typography
 
 > **TL;DR or main thoughts**: our main font is Inter.
 
@@ -58,7 +58,7 @@ We strongly recommend you to use 14px and 16px sizes for text messages across yo
 
 See [Typography](/style/typography/) if want to learn more about our recommendations on typography.
 
-@## Breakpoints
+## Breakpoints
 
 > **TL;DR or main thoughts**: most of our products are designed to work with data on the desktop, since there is a lot of data visualization. So adaptivity is not yet required for all products.
 
@@ -72,7 +72,7 @@ The main breakpoints that we recommend to use in our interfaces are:
 
 See [Breakpoints](/layout/breakpoints/) and [Grid and page layout](/layout/grid-system/) for more information.
 
-@## Grid system
+## Grid system
 
 > **TL;DR or main thoughts**: we use the 12-column grid with a 24px size gutter in our product interfaces.
 
@@ -80,7 +80,7 @@ Some products use a flexible grid, while others use a fixed one depending on the
 
 Go to [Grid and page layout](/layout/grid-system) for a detailed description of this component with code examples.
 
-@## Charts
+## Charts
 
 > **TL;DR or main thoughts**: we design a lot of widgets with charts. And when we say a lot – we mean A LOT 😀 . So be ready to learn about the use of different types of charts.
 
@@ -88,7 +88,7 @@ We use many different types of charts in our interfaces, and each chart is used 
 
 Check out [Data visualization](/data-display/d3-chart) for a very detailed guideline on how to build your widget with data: margins, axes, legend, tooltips, edge cases and all that good stuff.
 
-@## Tables
+## Tables
 
 > **TL;DR or main thing**: tables are one of the main components of our product interfaces:
 
@@ -97,6 +97,6 @@ Check out [Data visualization](/data-display/d3-chart) for a very detailed guide
 
 Because of the large number of use cases and edge states we have separate guidelines for [Table principles](/table-group/table/), [Table controls](/table-group/table-controls/) and [Table states](/table-group/table-states/). We highly recommend you give all of them a look.
 
-@## Resources
+## Resources
 
 All resources you need to start creating an interface for the Semrush suite you can find on the [Figma libraries page](/get-started-guide/work-figma/).

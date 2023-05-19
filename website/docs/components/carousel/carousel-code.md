@@ -2,19 +2,19 @@
 title: Example
 ---
 
-@## Image & video galleries
+## Image & video galleries
 
 @example image
 
-@## Dot indicators
+## Dot indicators
 
 @example dots
 
-@## Content galleries inside the modal window
+## Content galleries inside the modal window
 
 @example content
 
-@## Hidden controls to move focus in hidden block
+## Hidden controls to move focus in hidden block
 
 - `ariaHidden` controls the visibility on the screens.
 - `tabIndex` controls the visibility of the focus.

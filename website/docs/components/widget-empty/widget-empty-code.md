@@ -3,7 +3,7 @@ title: Example
 fileSource: widget-empty
 ---
 
-@## No Data example
+## No Data example
 
 The template already has the title. You should only transfer the data type and description.
 
@@ -11,17 +11,17 @@ The template already has the title. You should only transfer the data type and d
 
 @example no-data
 
-@## Nothing Found example
+## Nothing Found example
 
 @example nothing-found
 
-@## Error example
+## Error example
 
 The template already has the title and the image. You should only transfer the description and additional elements if necessary.
 
 @example error
 
-@## Custom examples
+## Custom examples
 
 You can create custom messages. For example, "[Set up your tool](/components/widget-empty/#set_up_your_tool)" message.
 

@@ -5,9 +5,11 @@ tabName: Design
 deprecated: true
 ---
 
-> 🚨 Library `@semcore/sticky` is deprecated. Please, use [`@semcore/flex-box`](/layout/box-system/) instead.
+::: warning
+:rotating_light: Library `@semcore/sticky` is deprecated. Please, use [`@semcore/flex-box`](/layout/box-system/) instead.
+:::
 
-@## Description
+## Description
 
 **Sticky** is a component that can be used to pin a block towards a parent one when scrolling.
 
@@ -17,7 +19,7 @@ The block can either be centered in relation to the height and width of the pare
 
 @example limit
 
-@## Pinning of header and columns in table
+## Pinning of header and columns in table
 
 When scrolling a table, pin its header. Do not add have any shadows to pinned table header.
 
@@ -35,7 +37,7 @@ background-image: linear-gradient(to left, rgba(25, 27, 35, .1), rgba(255, 255, 
 
 ![](static/sticky-column.png)
 
-@## Pinning of messages inside the block
+## Pinning of messages inside the block
 
 Inside the big blocks and widgets, you can pin messages towards the vertical and horizontal center of the big parent block.
 
@@ -43,7 +45,7 @@ Inside the big blocks and widgets, you can pin messages towards the vertical and
 
 ![](static/sticky-loading-1.png)
 
-@## Pinning of ProgressBar
+## Pinning of ProgressBar
 
 You can pin [ProgressBar](/components/progress-bar/) to the top of the page or to any other block pinned above it (for example, to the table header).
 
@@ -51,7 +53,7 @@ You can pin [ProgressBar](/components/progress-bar/) to the top of the page or t
 
 ![](static/sticky-2.png)
 
-@## Pinning of the content in blocks with limits
+## Pinning of the content in blocks with limits
 
 If a limit message appears in the block, center this message towards its parent block while scrolling.
 

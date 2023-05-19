@@ -4,7 +4,7 @@ fileSource: select
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **Select** is a component for selecting one or more values from the list. Optionally, it may contain search input, titles, buttons, grouping and nesting.
 
@@ -13,20 +13,20 @@ The component consists of:
 - trigger (described in this guide);
 - [dropdown](/components/dropdown-menu/).
 
-@## Trigger
+## Trigger
 
 For a select trigger you can use the following BaseTrigger types:
 
-| BaseTrigger type | Appearance example |
-| ---------------- | ------------------ |
-| **BaseTrigger**. Has two sizes: M and L. | ![](static/primary-default.png) |
-| **LinkTrigger (looks like a Link, but it's a button)**. Use it in two sizes: 14px text and 16px text. | ![](static/inline-select-placeholder.png) |
-| **LinkTrigger with the color of text (looks like a Link, but it's a button)**. Use it in two sizes: 14px text and 16px text. | ![](static/tertiary.png) |
+| BaseTrigger type                                                                                                             | Appearance example                        |
+| ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| **BaseTrigger**. Has two sizes: M and L.                                                                                     | ![](static/primary-default.png)           |
+| **LinkTrigger (looks like a Link, but it's a button)**. Use it in two sizes: 14px text and 16px text.                        | ![](static/inline-select-placeholder.png) |
+| **LinkTrigger with the color of text (looks like a Link, but it's a button)**. Use it in two sizes: 14px text and 16px text. | ![](static/tertiary.png)                  |
 
-| Size | ButtonTrigger                             | LinkTrigger                                | LinkTrigger with the color of text          |
-| ---- | ----------------------------------------- | ------------------------------------------ | ------------------------------------------- |
-| M    | ![](static/primary-select-m.png) | ![](static/inline-select-m.png) | ![](static/tertiary-select-m.png) |
-| L    | ![](static/primary-select-l.png) | ![](static/inline-select-l.png) | ![](static/tertiary-select-l.png) |
+| Size | ButtonTrigger                    | LinkTrigger                     | LinkTrigger with the color of text |
+| ---- | -------------------------------- | ------------------------------- | ---------------------------------- |
+| M    | ![](static/primary-select-m.png) | ![](static/inline-select-m.png) | ![](static/tertiary-select-m.png)  |
+| L    | ![](static/primary-select-l.png) | ![](static/inline-select-l.png) | ![](static/tertiary-select-l.png)  |
 
 ### Maximum width
 
@@ -36,19 +36,19 @@ If trigger has a maximum width, then collapse long values into the ellipsis. Whe
 
 ![](static/tooltip.png)
 
-@## Trigger states
+## Trigger states
 
-| State         | ButtonTrigger                                    | LinkTrigger                                                | LinkTrigger with the color of text                          |
-| ------------- | ------------------------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------------- |
-| Default       | ![](static/primary-default.png)           | ![](static/inline-select-placeholder.png) | ![](static/tertiary-select-placeholder.png) |
-| Hover, active | ![](static/primary-hover-active.png) | ![](static/inline-select-hover.png)         | ![](static/tertiary-select-hover.png)         |
-| Placeholder   | ![](static/primary-placeholder.png)   | ![](static/inline-select-placeholder.png) | ![](static/tertiary-select-placeholder.png) |
-| Loading       | ![](static/primary-loading.png)           | ![](static/inline-select-loading.png)     | ![](static/tertiary-select-loading.png)     |
-| Valid         | ![](static/primary-valid.png)               | ![](static/inline-select-valid.png)         | ![](static/inline-select-valid.png)           |
-| Invalid       | ![](static/primary-invalid.png)           | ![](static/inline-select-invalid.png)     | ![](static/inline-select-invalid.png)       |
-| Disabled      | ![](static/primary-disabled.png)         | ![](static/inline-select-disabled.png)   | ![](static/tertiary-select-disabled.png)   |
+| State         | ButtonTrigger                        | LinkTrigger                               | LinkTrigger with the color of text          |
+| ------------- | ------------------------------------ | ----------------------------------------- | ------------------------------------------- |
+| Default       | ![](static/primary-default.png)      | ![](static/inline-select-placeholder.png) | ![](static/tertiary-select-placeholder.png) |
+| Hover, active | ![](static/primary-hover-active.png) | ![](static/inline-select-hover.png)       | ![](static/tertiary-select-hover.png)       |
+| Placeholder   | ![](static/primary-placeholder.png)  | ![](static/inline-select-placeholder.png) | ![](static/tertiary-select-placeholder.png) |
+| Loading       | ![](static/primary-loading.png)      | ![](static/inline-select-loading.png)     | ![](static/tertiary-select-loading.png)     |
+| Valid         | ![](static/primary-valid.png)        | ![](static/inline-select-valid.png)       | ![](static/inline-select-valid.png)         |
+| Invalid       | ![](static/primary-invalid.png)      | ![](static/inline-select-invalid.png)     | ![](static/inline-select-invalid.png)       |
+| Disabled      | ![](static/primary-disabled.png)     | ![](static/inline-select-disabled.png)    | ![](static/tertiary-select-disabled.png)    |
 
-@## Trigger content
+## Trigger content
 
 The select trigger can contain an icon, flag or other addon before the text.
 
@@ -56,18 +56,18 @@ The select trigger can contain an icon, flag or other addon before the text.
 
 [Dot](/components/dot/) should be placed in the upper right corner of the trigger.
 
-|        | Button                             | Link as Button                              | Link (as Button) with the color of text                  |
-| ------ | ---------------------------------- | ------------------------------------------- | -------------------------------------------- |
-| Flag   | ![](static/flag-primary.png)   | ![](static/inline-flag.png)   | ![](static/tertiary-flag.png)   |
-| Icon   | ![](static/icon-primary.png)   | ![](static/inline-icon.png)   | ![](static/tertiary-icon.png)   |
-| Avatar | ![](static/pic-primary.png)     | ![](static/inline-pic.png)     | ![](static/tertiary-pic.png)     |
-| Badge  | ![](static/badge-primary.png) | ![](static/inline-badge.png) | ![](static/tertiary-badge.png) |
+|        | Button                        | Link as Button               | Link (as Button) with the color of text |
+| ------ | ----------------------------- | ---------------------------- | --------------------------------------- |
+| Flag   | ![](static/flag-primary.png)  | ![](static/inline-flag.png)  | ![](static/tertiary-flag.png)           |
+| Icon   | ![](static/icon-primary.png)  | ![](static/inline-icon.png)  | ![](static/tertiary-icon.png)           |
+| Avatar | ![](static/pic-primary.png)   | ![](static/inline-pic.png)   | ![](static/tertiary-pic.png)            |
+| Badge  | ![](static/badge-primary.png) | ![](static/inline-badge.png) | ![](static/tertiary-badge.png)          |
 
-@## Dropdown (dropdown list)
+## Dropdown (dropdown list)
 
 You can read about the dropdown list, its content and states in [Dropdown-menu](/components/dropdown-menu/).
 
-@## Multiselect
+## Multiselect
 
 **Multiselect** is a select with the functionality to choose several items from a list. Items in such a list are represented by checkboxes.
 
@@ -85,18 +85,18 @@ If you have more than three values, add the "Select all" option at the very begi
 
 ![](static/multiselect-all.png)
 
-@## Specific cases for multiselect
+## Specific cases for multiselect
 
 In long lists (for example, in the list of countries), the values selected by the user should be pinned to the very top of the list when the user has closed/opened the select.
 
-| User opened select and started selecting the values.                                                  | User closed select.                                | User has reopened select, and the values he selected are pinned at the very top of the list. When unchecking these values, they remain in the same place. |
-| ----------------------------------------------------------------------------------------------------- | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![](static/multiselect-flow-1.png) ![](static/multiselect-flow-2.png) | ![](static/multiselect-flow-3.png) | ![](static/multiselect-flow-4.png)                                                                                                        |
+| User opened select and started selecting the values.                  | User closed select.                | User has reopened select, and the values he selected are pinned at the very top of the list. When unchecking these values, they remain in the same place. |
+| --------------------------------------------------------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](static/multiselect-flow-1.png) ![](static/multiselect-flow-2.png) | ![](static/multiselect-flow-3.png) | ![](static/multiselect-flow-4.png)                                                                                                                        |
 
 ### Displaying the selected values in the trigger
 
-|                                                                                                                                      | Appearance example                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- |
+|                                                                                                                                      | Appearance example                    |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
 | If nothing is selected, write `Select` + the required value.                                                                         | ![](static/multiselect-trigger-1.png) |
 | If everything is selected, write `All`.                                                                                              | ![](static/multiselect-trigger-2.png) |
 | If user selected 1 or 2 values, show them in the trigger listing them with commas. If they do not match, add the text in `ellipsis`. | ![](static/multiselect-trigger-3.png) |

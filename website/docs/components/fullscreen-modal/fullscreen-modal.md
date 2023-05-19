@@ -4,7 +4,7 @@ fileSource: fullscreen-modal
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **Fullscreen modal** is a modal window, which opens on top of the webpage. **It blocks all functions of the parent page and has a separate URL.**
 
@@ -15,7 +15,7 @@ tabName: Design
 - it is necessary to show a large amount of additional data for the report, but you don’t need to move it to a separate page;
 - the screen size is less than 768px.
 
-@## Appearance
+## Appearance
 
 Fullscreen modal window consists of:
 
@@ -25,7 +25,7 @@ Fullscreen modal window consists of:
 
 ![](static/fullscreen-modal.png)
 
-@## Header
+## Header
 
 For the header of the fullscreen window use the following styles:
 
@@ -58,19 +58,19 @@ If the title of the window is very long and it does not fit into the space, coll
 
 ![](static/long-heading.png)
 
-@## Content
+## Content
 
 - For content title use text less than 20px (`--fs-500`) to maintain hierarchy in the content.
 - You can divide content area into several areas. To visually separate them, use `--bg-secondary-neutral` token as a background color for one of them.
 
-| Single-zone modal window                           | Dual-zone modal window                             |
-| -------------------------------------------------- | -------------------------------------------------- |
+| Single-zone modal window           | Dual-zone modal window             |
+| ---------------------------------- | ---------------------------------- |
 | ![](static/fullscreen-modal-3.png) | ![](static/fullscreen-modal-2.png) |
 
 ### Paddings
 
-| Single-zone modal window                 | Dual-zone modal window                     |
-| ---------------------------------------- | ------------------------------------------ |
+| Single-zone modal window | Dual-zone modal window     |
+| ------------------------ | -------------------------- |
 | ![](static/paddings.png) | ![](static/paddings-2.png) |
 
 ### Content alignment
@@ -78,11 +78,11 @@ If the title of the window is very long and it does not fit into the space, coll
 - If there are two columns / zones for content in the modal window, the content inside them is placed with `align: left`.
 - If there is only one zone for content in the modal window, it is necessary to center the content with `align:center` horizontally. **We recommend you to consider a [default modal window](/components/modal) in this case**.
 
-| Single-zone modal window                  | Dual-zone modal window                    |
-| ----------------------------------------- | ----------------------------------------- |
+| Single-zone modal window  | Dual-zone modal window    |
+| ------------------------- | ------------------------- |
 | ![](static/content-1.png) | ![](static/content-2.png) |
 
-@## Footer
+## Footer
 
 Footer has the same padding as the header has.
 
@@ -94,7 +94,7 @@ border-top: 1px solid var(--border-primary);
 
 ![](static/footer-fixed.png)
 
-@## CTA buttons
+## CTA buttons
 
 You can use buttons either M or L size depending on the context of the problem you are solving in such a modal window.
 
@@ -102,7 +102,7 @@ You can use buttons either M or L size depending on the context of the problem y
 
 ![](static/footer-fixed2.png)
 
-@## Interaction
+## Interaction
 
 You can close the fullscreen modal window:
 
@@ -113,13 +113,13 @@ You can close the fullscreen modal window:
 
 > When the fullscreen modal window is closed, focus returns to its trigger.
 
-@## Changing the browser window size
+## Changing the browser window size
 
 The header and footer of the modal window should be straightened to the full width of the browser window. If necessary, the content may have a fixed width (minimum or maximum).
 
 ![](static/fullscreen-yes-no.png)
 
-@## Corner cases
+## Corner cases
 
 ### Loading
 

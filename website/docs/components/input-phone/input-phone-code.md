@@ -2,13 +2,13 @@
 title: Example
 ---
 
-@## We don't know the country and number format
+## We don't know the country and number format
 
 The input has a preset value: `+`.
 
 @example basic
 
-@## The country is known but the number format is not known
+## The country is known but the number format is not known
 
 The input has a preset value: + country code. However, if it is possible to enter phone numbers from several countries, a country select option shall be available instead of static flag.
 
@@ -16,7 +16,7 @@ The input has a preset value: + country code. However, if it is possible to ente
 
 @example medium
 
-@## We know the country and number format
+## We know the country and number format
 
 The input contains the country code as a preset value: + country code. And the required format mask.
 

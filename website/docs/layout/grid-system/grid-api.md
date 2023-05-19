@@ -3,7 +3,7 @@ title: API
 fileSource: grid
 ---
 
-@## Row
+## Row
 
 ```jsx
 import { Row } from '@semcore/ui/grid';
@@ -12,7 +12,7 @@ import { Row } from '@semcore/ui/grid';
 
 @typescript IRowProps
 
-@## Col
+## Col
 
 ```jsx
 import { Col } from '@semcore/ui/grid';

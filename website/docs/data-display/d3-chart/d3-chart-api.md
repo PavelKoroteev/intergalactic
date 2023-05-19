@@ -3,7 +3,7 @@ title: API
 fileSource: d3-chart
 ---
 
-@## Plot
+## Plot
 
 Root element for all charts.
 
@@ -13,7 +13,7 @@ import { Plot } from '@semcore/ui/d3-chart';
 
 @typescript IPlotProps
 
-@## Axis
+## Axis
 
 It have children components `Ticks, Grid`.
 
@@ -30,7 +30,7 @@ import { XAxis, YAxis } from '@semcore/ui/d3-chart';
 
 @typescript IYAxisProps
 
-@## ResponsiveContainer
+## ResponsiveContainer
 
 Container watch to size block.
 
@@ -40,7 +40,7 @@ import { ResponsiveContainer } from '@semcore/ui/d3-chart';
 
 @typescript IResponsiveContainerProps
 
-@## Tooltip
+## Tooltip
 
 It have children components `Trigger, Popper, Title, Dot`.
 
@@ -55,7 +55,7 @@ import { Tooltip } from '@semcore/ui/d3-chart';
 
 @typescript ITooltipChartProps
 
-@## HoverLine
+## HoverLine
 
 Component for show line after hover on chart.
 
@@ -65,7 +65,7 @@ import { HoverLine } from '@semcore/ui/d3-chart';
 
 @typescript IHoverProps
 
-@## HoverRect
+## HoverRect
 
 Component for show sector after hover on chart.
 

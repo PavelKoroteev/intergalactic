@@ -3,11 +3,11 @@ title: Example
 fileSource: input-mask
 ---
 
-@## InputMask
+## InputMask
 
 This component is an input wrapper that allows you to set the format for the input value.
 
-@## Mask
+## Mask
 
 This is the example for a simple input with a `mask`. The mask is set via the mask property, which determines the input format and value validation.
 
@@ -15,7 +15,7 @@ This is the example for a simple input with a `mask`. The mask is set via the ma
 
 @example basic
 
-@## Aliases
+## Aliases
 
 `aliases` is the object that defines how characters in the mask are validated. By default, they are configured as follows:
 
@@ -25,7 +25,7 @@ This is the example for a simple input with a `mask`. The mask is set via the ma
 
 @example aliases
 
-@## Pipe
+## Pipe
 
 `pipe` is a function that processes and changes the `InputMask` value after user input.
 

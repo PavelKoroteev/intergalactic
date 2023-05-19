@@ -2,7 +2,7 @@
 title: Table states
 ---
 
-@## Basic rules for table states
+## Basic rules for table states
 
 > The message inside the table must get the `sticky` property when scrolling and be centered relative to the parent table and the user's viewport.
 >
@@ -10,14 +10,14 @@ title: Table states
 
 Message with a loading or error state must have `margin-top: 40px`, so that when the user changes the size of the viewport, the message does not "stick" to table header.
 
-|                                                       | First screen                                                | The state of the page scrolling                             |
-| ----------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| Example with [Progressbar](/components/progress-bar/) | ![](static/table-sticky-1.png) | ![](static/table-sticky-2.png) |
-| Example with [Spin](/components/spin/)                | ![](static/sticky-loading-1.png)   | ![](static/sticky-loading-2.png)   |
+|                                                       | First screen                     | The state of the page scrolling  |
+| ----------------------------------------------------- | -------------------------------- | -------------------------------- |
+| Example with [Progressbar](/components/progress-bar/) | ![](static/table-sticky-1.png)   | ![](static/table-sticky-2.png)   |
+| Example with [Spin](/components/spin/)                | ![](static/sticky-loading-1.png) | ![](static/sticky-loading-2.png) |
 
 > It is also not recommended to change the table height when switching between states.
 
-@## Skeleton
+## Skeleton
 
 When loading data for the first time, show the structure of the loaded page and data. Use the [Skeleton](/components/skeleton/).
 
@@ -37,7 +37,7 @@ In a secondary table, you can show the skeleton for all the rows (there are usua
 
 ![](static/skeleton-secondary.png)
 
-@## Progressbar
+## Progressbar
 
 If gathering data takes a large period of time **(more than 1 minute, for example)**, show that data is being collected. Use the [ProgressBar](/components/progress-bar) in this case.
 
@@ -49,7 +49,7 @@ When scrolling the table, fix the progressbar to the table header. The message r
 
 ![](static/table-sticky-2.png)
 
-@## Loading
+## Loading
 
 This state is for cases when user filters/sorts/searchs data. In this case, use [Spin](/components/spin/).
 
@@ -67,7 +67,7 @@ The loading message gets the [`sticky` property](/components/sticky/) and is cen
 
 ![](static/sticky-loading-1.png)
 
-@## Empty table
+## Empty table
 
 The table can be empty and has no data in it, because of the data that was either deleted or not provided at the beginning of working with the table.
 
@@ -82,7 +82,7 @@ See more information in the [Empty page](/patterns/empty-page/).
 
 > Note that illustrations for these cases are usually unique. Designers create them for each specific case or product if needed.
 
-@## No data
+## No data
 
 **Show this message when:**
 
@@ -95,7 +95,7 @@ See more information in the [Empty page](/patterns/empty-page/).
 
 > The svg illustration for this state can be found in the [library for empty states](https://static.semrush.com/ui-kit/widget-empty/1.4.0/table.svg). All other illustrations and their names can be found in the [documentation for empty states](/components/widget-empty/widget-empty-code/).
 
-@## Nothing found
+## Nothing found
 
 Show this state when user has been searching or applying a filter in the table, and we didn't find anything.
 
@@ -107,7 +107,7 @@ In this state, we recommend adding a control that will help user correct the sit
 
 > The svg illustration for this state can be found in the [library for empty states](https://static.semrush.com/ui-kit/widget-empty/1.4.0/nothing-found.svg). All other illustrations and their names can be found in the [documentation for empty states](/components/widget-empty/widget-empty-code/).
 
-@## Something went wrong
+## Something went wrong
 
 Show this state when there was an error in the product on the backend, so we can't show the data. For more information about such errors, see [Errors, n/a, nothing found in the widgets](/components/widget-empty/).
 
@@ -117,14 +117,14 @@ Show this state when there was an error in the product on the backend, so we can
 
 - error happened while user was working with the table.
 
-|                                            | Apperance example                                         |
-| ------------------------------------------ | --------------------------------------------------------- |
-| We are aware of the problem, and report it | ![](static/error-known.png)         |
+|                                            | Apperance example               |
+| ------------------------------------------ | ------------------------------- |
+| We are aware of the problem, and report it | ![](static/error-known.png)     |
 | We don't know about the problem            | ![](static/error-not-known.png) |
 
 > The svg illustration for this state can be found in the [library for empty states](https://static.semrush.com/ui-kit/widget-empty/1.4.0/warning.svg). All other illustrations and their names can be found in the [documentation for empty states](/components/widget-empty/widget-empty-code/).
 
-@## Message text
+## Message text
 
 It is important to indicate the following things in the empty state message:
 
@@ -133,13 +133,13 @@ It is important to indicate the following things in the empty state message:
 - If possible, suggest an action (in the form of a button or link) which will help user to change the situation.
   For more information about the rules for such states, see the guides – [Errors, n/a, nothing found in widgets](/components/widget-empty/), [Global errors](/patterns/global-errors/), etc.
 
-@## Table header
+## Table header
 
 For all empty states of the table, keep the header. If it has sorting icons, also keep them.
 
 ![](static/empty-yes-no.png)
 
-@## Cell empty & error states
+## Cell empty & error states
 
 ### There is no data in the cell
 

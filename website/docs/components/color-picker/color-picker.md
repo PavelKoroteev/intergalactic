@@ -6,7 +6,7 @@ fileSource: color-picker
 
 @import playground
 
-@## Description
+## Description
 
 **ColorPicker** is a component that allows the user selecting a color from a given list or input a custom color using its HEX code.
 
@@ -16,7 +16,7 @@ fileSource: color-picker
 - List of ColorPicker.Items
 - Input (optional)
 
-@## Trigger
+## Trigger
 
 The trigger for a ColorPicker is a Select with a circle as the leading addon.
 
@@ -26,63 +26,63 @@ The trigger for a ColorPicker is a Select with a circle as the leading addon.
 
 ![](static/trigger-size.png)
 
-@## List of colors
+## List of colors
 
 A list of colors can include either a single ColorPicker.Item or multiple ones, which are preview swatches that display all available color values.
 
-| ColorPicker.Item                                             | List of ColorPicker.Items                             |
-| ------------------------------------------------------------ | ----------------------------------------------------- |
+| ColorPicker.Item                            | List of ColorPicker.Items          |
+| ------------------------------------------- | ---------------------------------- |
 | ![](static/colorpicker-item-bg-default.png) | ![](static/colorpicker-inline.png) |
 
-@## Size
+## Size
 
-ColorPicker.Item has 28px * 28px size.
+ColorPicker.Item has 28px \* 28px size.
 
 ![](static/colorpicker-item-size.png)
 
-@## Margins
+## Margins
 
 All margins must be [multiples of 4](/layout/box-system/#spacing_system). The default recommended margins are 4px:
 
 ![](static/colorpicker-margins.png)
 
-@## Item types
+## Item types
 
 An item can have two different types:
 
-| Type            | Appearance example                                                             | Usage                                                                                                                 |
-| --------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Item for background color | ![](static/colorpicker-item-bg-default.png) | Use for changing the background color. For example, a user can pick colors to visually separate their competitors. |
-| Item for text color      | ![](static/colorpicker-item-text-default.png)    | Use for changing the Tag color, e.g.                                                                                             |
+| Type                      | Appearance example                            | Usage                                                                                                              |
+| ------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Item for background color | ![](static/colorpicker-item-bg-default.png)   | Use for changing the background color. For example, a user can pick colors to visually separate their competitors. |
+| Item for text color       | ![](static/colorpicker-item-text-default.png) | Use for changing the Tag color, e.g.                                                                               |
 
-@## Interaction
+## Interaction
 
 - In the hover state, trigger has a `border: 1px solid var(--border-secondary)`.
 - In the active state, trigger changes its border color to `var(--border-info-active)`.
 
 ### Default item
 
-| | Normal | Hover | Active | Usage |
-| ------------------- | ------------------------------- | -------------------------- | ----------------------- | -------------------- |
-| Background color | ![](static/colorpicker-item-bg-default.png) | ![](static/colorpicker-item-bg-hover.png) | ![](static/colorpicker-item-bg-active.png)| Use for changing the background color of other components.|
-| Text color | ![](static/colorpicker-item-text-default.png) | ![](static/colorpicker-item-text-hover.png) | ![](static/colorpicker-item-text-active.png)| Use for changing text and background colors of other components.|
-| No background color | ![](static/colorpicker-item-nocolor-default.png) | ![](static/colorpicker-item-nocolor-hover.png) | ![](static/colorpicker-item-nocolor-active.png)| Use when no color is selected.|
-| No text color | ![](static/colorpicker-item-text-nocolor-default.png) | ![](static/colorpicker-item-text-nocolor-hover.png) | ![](static/colorpicker-item-text-nocolor-active.png)| Use when no color is selected.|
+|                     | Normal                                                | Hover                                               | Active                                               | Usage                                                            |
+| ------------------- | ----------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------- |
+| Background color    | ![](static/colorpicker-item-bg-default.png)           | ![](static/colorpicker-item-bg-hover.png)           | ![](static/colorpicker-item-bg-active.png)           | Use for changing the background color of other components.       |
+| Text color          | ![](static/colorpicker-item-text-default.png)         | ![](static/colorpicker-item-text-hover.png)         | ![](static/colorpicker-item-text-active.png)         | Use for changing text and background colors of other components. |
+| No background color | ![](static/colorpicker-item-nocolor-default.png)      | ![](static/colorpicker-item-nocolor-hover.png)      | ![](static/colorpicker-item-nocolor-active.png)      | Use when no color is selected.                                   |
+| No text color       | ![](static/colorpicker-item-text-nocolor-default.png) | ![](static/colorpicker-item-text-nocolor-hover.png) | ![](static/colorpicker-item-text-nocolor-active.png) | Use when no color is selected.                                   |
 
 ### Item for custom colors
 
-| | Normal | Hover | Active | Usage |
-| ------------------- | ------------------------------- | -------------------------- | ----------------------- | -------------------- |
-| Background color | ![](static/colorpicker-item-custom-default.png) | ![](static/colorpicker-item-custom-hover.png) | ![](static/colorpicker-item-bg-active.png)| Use for changing the background color of other components.|
-| Text color | ![](static/colorpicker-item-text-default.png) | ![](static/colorpicker-item-custom-text-hover.png) | ![](static/colorpicker-item-text-active.png)| Use for changing the text and background colors of other components.|
+|                  | Normal                                          | Hover                                              | Active                                       | Usage                                                                |
+| ---------------- | ----------------------------------------------- | -------------------------------------------------- | -------------------------------------------- | -------------------------------------------------------------------- |
+| Background color | ![](static/colorpicker-item-custom-default.png) | ![](static/colorpicker-item-custom-hover.png)      | ![](static/colorpicker-item-bg-active.png)   | Use for changing the background color of other components.           |
+| Text color       | ![](static/colorpicker-item-text-default.png)   | ![](static/colorpicker-item-custom-text-hover.png) | ![](static/colorpicker-item-text-active.png) | Use for changing the text and background colors of other components. |
 
 ### Item for adding colors
 
-| | Normal | Hover | Active | Usage |
-| ------------------- | ------------------------------- | -------------------------- | ----------------------- | -------------------- |
-| Add color button | ![](static/btn-add-default.png) | ![](static/btn-add-hover.png) | ![](static/btn-add-active.png)| Use Button with icon and change border-radius to 50%.|
+|                  | Normal                          | Hover                         | Active                         | Usage                                                 |
+| ---------------- | ------------------------------- | ----------------------------- | ------------------------------ | ----------------------------------------------------- |
+| Add color button | ![](static/btn-add-default.png) | ![](static/btn-add-hover.png) | ![](static/btn-add-active.png) | Use Button with icon and change border-radius to 50%. |
 
-@## Dropdown
+## Dropdown
 
 ### Width and height
 
@@ -90,15 +90,15 @@ An item can have two different types:
 
 Showing all available colors in the dropdown menu is crucial, however, if a user has added more than 20 custom colors, a scrollbar should be displayed.
 
-| Dropdown menu | Dropdown menu with more than 20 colors |
-| ------------------------------------------------------------ | ----------------------------------------------------- |
-| ![](static/dropdown-menu.png) | ![](static/scroll.png) |
+| Dropdown menu                 | Dropdown menu with more than 20 colors |
+| ----------------------------- | -------------------------------------- |
+| ![](static/dropdown-menu.png) | ![](static/scroll.png)                 |
 
 ### Margins and paddings
 
 ![](static/colorpicker-margins-paddings.png)
 
-@## Input (optional)
+## Input (optional)
 
 In case when a ColorPicker allows users to add custom colors, include an input that only accepts HEX values. For more information, refer to the [Validation section](/components/color-picker/#validation).
 
@@ -114,7 +114,7 @@ The color value is always a 6-character string that specifies the color in the H
 
 > User can enter both upper-case and lower-case characters, but the input will save them as upper-case.
 
-@## Interaction
+## Interaction
 
 Users have the ability to add or remove custom colors, but they cannot modify default or existing custom colors.
 
@@ -130,7 +130,7 @@ Users can add a color to the custom palette by clicking either the button with t
 
 ![](static/remove-custom-color.png)
 
-@## Validation
+## Validation
 
 The input field only allows six characters, which can include numbers and letters. If the user enters fewer or more characters or characters that cannot be converted to a 6-character HEX value, the input gets the `invalid` state.
 
@@ -138,7 +138,7 @@ To help users fix the invalid input, add the following message to the tooltip: "
 
 ![](static/validation.png)
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 Components that you can use as a trigger for the ColorPicker:
 

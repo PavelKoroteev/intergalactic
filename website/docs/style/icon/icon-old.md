@@ -6,7 +6,7 @@ title: Old icons
 
 @import icons-old
 
-@## Sizes
+## Sizes
 
 There are three main icon sizes:
 
@@ -18,12 +18,12 @@ In addition, an icon can have two additional sizes: L (44x44px) and XXS (8x8px).
 
 > Icons of the maximum size (44x44px) are considered images.
 
-@## Viewbox
+## Viewbox
 
 Icon sizes are limited by their viewbox, and icon contours can be slightly smaller.
 
 When drawing icons, we use the Swiss grid. It means that wide or tall icons may approach the viewbox edges, while square and/or round icons may have some padding from the viewbox edges.
 
-@## Stroke thickness
+## Stroke thickness
 
 Each icon size has its own stroke thickness, with some exceptions. Icons with a stroke and icons with a painting have different styles.

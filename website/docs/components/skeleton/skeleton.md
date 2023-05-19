@@ -4,7 +4,7 @@ fileSource: skeleton
 tabName: Design
 ---
 
-@## Description
+## Description
 
 > This component is one of the components that displays interface's reaction to user actions in the interface. For general rules on such components, see the [Loading patterns](/patterns/loading-states/).
 
@@ -17,18 +17,18 @@ tabName: Design
 
 Several skeletons can be shown simultaneously or asynchronously while initial loading of the elements.
 
-@## Themes
+## Themes
 
 Skeleton has [two themes](/components/skeleton/skeleton-api/): `dark` and `invert` – for using on light and dark/colored backgrounds, respectively.
 
 All skeleton “bones” have `border-radius` of 4px.
 
-| Theme  | Appearance example                     | Styles                                    |
-| ------ | -------------------------------------- | ----------------------------------------- |
+| Theme  | Appearance example          | Styles                                   |
+| ------ | --------------------------- | ---------------------------------------- |
 | Dark   | ![](static/theme-light.png) | `background: var(--skeleton-bg)`.        |
-| Invert | ![](static/theme-dark.png)   | `background: var(--skeleton-bg-invert)`. |
+| Invert | ![](static/theme-dark.png)  | `background: var(--skeleton-bg-invert)`. |
 
-@## Animation
+## Animation
 
 Our Skeleton is animated. You can see the live skeleton animation in the [Code](/components/skeleton/skeleton-code) tab.
 
@@ -38,7 +38,7 @@ Content appearance animation is 300ms with `ease-out`. Skeleton gradient animati
 
 > In case you do not need animation in the Skeleton, you can stop the animation using the property `duration="0"` 🕺🏻
 
-@## How to skeleton different components and elements on a page?
+## How to skeleton different components and elements on a page?
 
 ### Paragraph
 
@@ -73,8 +73,8 @@ Skeleton of images depends on their size:
 
 **Images of small size** are shown by the Skeleton “bone” corresponding to the image size, and are immediately replaced by the real image at loading.
 
-| Step                            | Example                                |
-| ------------------------------- | -------------------------------------- |
+| Step                            | Example                   |
+| ------------------------------- | ------------------------- |
 | 1. Skeleton                     | ![](static/pics.png)      |
 | 2. Replace by pictures and text | ![](static/pics-pics.png) |
 
@@ -82,8 +82,8 @@ Skeleton of images depends on their size:
 
 > In cases when it is possible from the technical point of view, skip the first step of the next scheme for large images.
 
-| Step                                                                                                  | Пример                                        |
-| ----------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Step                                                                                                  | Пример                       |
+| ----------------------------------------------------------------------------------------------------- | ---------------------------- |
 | 1. Skeleton                                                                                           | ![](static/big-pic.png)      |
 | 2. Small pictures and skeleton are replaced by text and user picture, the large one is loaded blurred | ![](static/big-pic-blur.png) |
 | 3. Big picture is loaded fully                                                                        | ![](static/big-pic-pic.png)  |
@@ -112,7 +112,7 @@ For a detailed guide, see the [Chart principles](/data-display/d3-chart).
 
 > When you do not know what type (primary or secondary) of the button should be loaded (depends on different extreme cases of UX script), skeleton the button.
 
-@## When to use
+## When to use
 
 Skeleton shows the structure of the page/component as long as it is loaded so that the user has a mental model of the loaded information. In other words, it is a simplified page view. Therefore, it is not recommended to skeleton every component on the page.
 
@@ -124,7 +124,7 @@ Skeleton is recommended for using while/when:
 
 > It is not recommended to use Skeleton for pages that are indexed by Google (for example, blog pages).
 
-@## Loaded data
+## Loaded data
 
 Data is more important than skeletons, animations and everything else. As soon as it is possible to show data, show it.
 
@@ -134,7 +134,7 @@ Data is more important than skeletons, animations and everything else. As soon a
 
 > If the loading takes more than 5 seconds, but it is necessary to show the already loaded data, it is recommended to use Skeleton paired with the [ProgressBar](/components/progress-bar/).
 
-@## What should be skeletonized?
+## What should be skeletonized?
 
 The information on the page can be divided into 2 categories:
 
@@ -168,7 +168,7 @@ In addition, the following components should never use Skeleton, as they should 
 - [Modal](/components/modal/);
 - [Spin](/components/spin/).
 
-@## Use in different components
+## Use in different components
 
 ### Table
 
@@ -230,7 +230,7 @@ Skeletonize them same way as Summary.
 
 ![skeleton-big-pills](static/big-pills.png)
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 **Use Skeleton only for displaying dynamic information.** Information that can be shown at once and will not change should be shown immediately.
 

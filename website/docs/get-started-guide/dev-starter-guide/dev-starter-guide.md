@@ -2,7 +2,7 @@
 title: For developers
 ---
 
-@## Introduction
+## Introduction
 
 Let's look at the design system we use at [Semrush](https://semrush.com), and which you can use for your project.
 
@@ -10,7 +10,7 @@ The design system consists of over 70 [React](https://reactjs.org) components. E
 
 We also have big [icons library](/style/icon/) and [charts library](/data-display/d3-chart/d3-chart-code/).
 
-@## Installation
+## Installation
 
 Components are installed in a single package.
 
@@ -20,9 +20,9 @@ Example:
 npm i @semcore/ui
 ```
 
-After the installation, all components will be available at `@semcore/ui/{{ component name }}`.
+After the installation, all components will be available at `@semcore/ui/{component name}`.
 
-@## Basic moments
+## Basic moments
 
 We have developed the design system with flexibility and ease of use in mind. Therefore, it has some features, which will be described below.
 
@@ -65,15 +65,15 @@ Every property that can be changed has a handler. For example, `visible` is a pr
 > You may have seen this type of logic in the [native input](https://reactjs.org/docs/forms.html#controlled-components) where you control the value and the `onChange` serves as a
 > request for change. In this case it's up to you whether to change the value or not.
 >
-> The handlers for these types of properties have a specific notation: `on{{ eventName }}Change`.
+> The handlers for these types of properties have a specific notation: `on{eventName}Change`.
 
 If you don't set these properties, the component will run in uncontrolled mode.
 
-Also, all properties that can be changed have an initial state located in the `default + {{ Property name }}` property. It can be changed by assigning a different value.
+Also, all properties that can be changed have an initial state located in the `default + {Property name}` property. It can be changed by assigning a different value.
 
 For example, a tooltip has a `visible` property which is closed by default. If you want its initial state to be opened, you can assign it the `defaultVisible={true}` value.
 
-@### Handlers
+### Handlers
 
 Consistency is essential for a library because it helps you understand what to expect in any particular case. This is why all event handlers in our library have the same format:
 
@@ -162,7 +162,7 @@ import { Flex } from '@semcore/ui/flex-box';
 <Flex justifyContent="center" alignItems="center" />;
 ```
 
-@## Browser support
+## Browser support
 
 We do not support legacy browsers as we do not want to encourage their use.
 

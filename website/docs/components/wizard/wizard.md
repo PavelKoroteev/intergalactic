@@ -4,28 +4,28 @@ fileSource: wizard
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **Wizard** is a component that guides the user through a set of predefined steps and helps to complete a large task.
 
 _For example, set up and run a report, submit a very large form._
 
-@## When to use wizard
+## When to use wizard
 
 - The task is very large and cannot be simplified. In this case, it needs to be broken down into several small steps. It is more convenient for the user to solve such problems gradually, focusing on each individual step. Breaking down a large task into steps reduces the perceived complexity of the task.
 - A task has a predefined sequence of steps that the user must follow in order to complete it. In such cases, the user is unlikely to miss any important part and make fewer mistakes when performing the task.
 - If the task has two steps, you hardly need a wizard. And if the task has 10 or more steps, perhaps you should think about simplifying it. Usually the optimal number of steps for a wizard is 3-5.
 
-@## When do not use wizard
+## When do not use wizard
 
 - You need to educate the user. Wizards do not help in user education, because they usually focus users on solving a large problem, rather than reading additional information. For learning, use other components - FeaturePopover, `Info` icons, pseudo links, videos, etc.
 - If your audience is quite advanced and trained, they may not feel comfortable using a wizard with a predefined set of steps. Usually this applies to various kinds of IDE and graphic editors, for example.
 
-@## Component composition
+## Component composition
 
 ![](static/wizard-scheme.png)
 
-@## Appearance
+## Appearance
 
 Wizard has the following default styles.
 
@@ -73,7 +73,7 @@ If a stepper has a sub-step, it has the following styles:
 
 ![](static/substep-paddings-margins.png)
 
-@## Wizard in Modal
+## Wizard in Modal
 
 ### Sizes
 
@@ -150,19 +150,19 @@ For basic controls use L size.
 
 ![](static/footer.png)
 
-@## Interaction
+## Interaction
 
 There you can see default styles for stepper button.
 
-| State    | Appearance example                                                                                | Styles                                                                                                                                                               |
-| -------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Normal   | ![](static/normal.png)                                                        | `background-color: var(--control-primary-advertising)`, `border-radius: var(--rounded-medium)`                                                                     |
-| Hover    | ![](static/hover.png)                                                         | `background-color: var(--control-primary-advertising-hover)`, `cursor: pointer`                                                                                    |
-| Active   | ![](static/active.png)                                                        | `background-color: var(--control-primary-advertising-active)`                                                                                                       |
+| State    | Appearance example                                        | Styles                                                                                                                                                               |
+| -------- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Normal   | ![](static/normal.png)                                    | `background-color: var(--control-primary-advertising)`, `border-radius: var(--rounded-medium)`                                                                       |
+| Hover    | ![](static/hover.png)                                     | `background-color: var(--control-primary-advertising-hover)`, `cursor: pointer`                                                                                      |
+| Active   | ![](static/active.png)                                    | `background-color: var(--control-primary-advertising-active)`                                                                                                        |
 | Disabled | ![](static/disabled.png) ![](static/disabled-tooltip.png) | Use [`--disabled-opacity`](/style/design-tokens/) token. When hovering on a button in this state, hang up a tooltip with a description of why this step is disabled. |
-| checked  | ![](static/checked.png)                                                       | The number changes to a Check icon in size M.                                                                                                                        |
+| checked  | ![](static/checked.png)                                   | The number changes to a Check icon in size M.                                                                                                                        |
 
-@## Keyboard control
+## Keyboard control
 
 - When opening a wizard, the focus should move to it.
 - You can move between the interactive elements of the window using `Tab`.
@@ -170,7 +170,7 @@ There you can see default styles for stepper button.
 
 When the fullscreen modal closes, focus returns back to the page. See [Accessibility](/core-principles/a11y/).
 
-@## Use in UI/UX
+## Use in UI/UX
 
 > For consistency of user experience within products of the same platform, use a wizard for setting a product.
 >

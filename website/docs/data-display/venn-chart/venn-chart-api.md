@@ -3,7 +3,7 @@ title: API
 fileSource: d3-chart
 ---
 
-@## D3 API
+## D3 API
 
 It have children components `Circle`, `Intersection`.
 
@@ -18,7 +18,7 @@ import { Venn } from '@semcore/ui/d3-chart';
 
 @typescript IVennProps
 
-@## Recharts API
+## Recharts API
 
 We used [recharts](http://recharts.org) and styled it. All exports are recharts exports. Please refer to [recharts API](http://recharts.org/en-US/api) for detailed documentation and examples.
 

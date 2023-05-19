@@ -3,7 +3,7 @@ title: API
 fileSource: d3-chart
 ---
 
-@## D3 API
+## D3 API
 
 It have children components `Bar, HorizontalBar`.
 
@@ -18,7 +18,7 @@ import { StackBar } from '@semcore/ui/d3-chart';
 
 @typescript IStackBarProps
 
-@## Recharts API
+## Recharts API
 
 ```js
 import { BarChart } from '@semcore/chart';

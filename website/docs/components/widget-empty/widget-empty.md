@@ -8,7 +8,7 @@ tabName: Design
 
 Widgets have “empty” states, which should properly inform user, why there is no data and how to remedy the situation.
 
-@## Composition and styles
+## Composition and styles
 
 Widget’s “empty” state usually includes the following:
 
@@ -20,9 +20,9 @@ Widget’s “empty” state usually includes the following:
 
 |                     | Description, styles                                                                                                      |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Image in svg format | `margin-bottom: 12px`, `width: 80px`, `height: 80px`                                                                  |
+| Image in svg format | `margin-bottom: 12px`, `width: 80px`, `height: 80px`                                                                     |
 | Title               | Text with 16px size (`--fs-300`, `--lh-300`), `--text-secondary` token for color and `margin-bottom: var(--spacing-1x)`. |
-| Description         | Text with 14px size (`--fs-200`, `--lh-200`) and `--text-secondary` token for color.                                    |
+| Description         | Text with 14px size (`--fs-200`, `--lh-200`) and `--text-secondary` token for color.                                     |
 | Button (optional)   | Button with M size and `var(--spacing-4x).`                                                                              |
 | Select (optional)   | Select with M size and `margin-bottom: var(--spacing-1x).`                                                               |
 
@@ -38,7 +38,7 @@ Widget’s “empty” state usually includes the following:
 
 **Be brief**. Write briefly. Two or three short sentences are usually enough to describe the situation.
 
-@## Widget sizes
+## Widget sizes
 
 As a rule, the widget height in “empty” state is the same as the height of the widget with data.
 
@@ -52,13 +52,14 @@ There are cases when it is required to reduce the height of the widget with “e
 
 ![](static/medium-extra-empty.png)
 
-@## Button names
+## Button names
 
 <!-- 1. If the WidgetEmpty's description starts with "Try" and only the problem area should be updated, then call the button "Try again". -->
+
 1. If the whole page should be refreshed, then call the button "Reload page".
 2. If the widget should be refreshed, then call the button "Reload".
 
-@## State types
+## State types
 
 The list of “empty” states in the widgets:
 
@@ -68,7 +69,7 @@ The list of “empty” states in the widgets:
 - Product is not set up
 - Something went wrong (has also specific version: "Cannot filter data")
 
-@## No data
+## No data
 
 Use this state, when for some reason there is no data or system cannot show it. If widget has a title, it should be displayed in this state. In this case show the following instead of the data:
 
@@ -77,8 +78,8 @@ Use this state, when for some reason there is no data or system cannot show it. 
 - button helping the users to remedy the situation (optional);
 - filters helping to remedy the situation (optional).
 
-| Wide widget                                       | Medium widget                                           | Text                                                           |
-| ------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------- |
+| Wide widget                       | Medium widget                        | Text                                                 |
+| --------------------------------- | ------------------------------------ | ---------------------------------------------------- |
 | ![](static/big-empty.png)         | ![](static/medium-empty.png)         | Title: "Nothing found". Description: {Hint message}. |
 | ![](static/big-empty-filters.png) | ![](static/medium-empty-filters.png) | Title: "Nothing found". Description: {Hint message}. |
 
@@ -96,15 +97,15 @@ It's a specific variant for cases when there is no data in the search results (i
 - a text message specifying that there is no data at the user request;
 - button helping to remedy the situation (optional);
 
-| Wide widget                                              | Medium widget                                                  | Text                                                              |
-| -------------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Wide widget                 | Medium widget                  | Text                                                              |
+| --------------------------- | ------------------------------ | ----------------------------------------------------------------- |
 | ![](static/big-nothing.png) | ![](static/medium-nothing.png) | Title: "Nothing found". Description: "Try changing your filters". |
 
 If your widget has width less than 300px, you may leave just the title with styles of the description text. And hide the description into the Info icon with M size.
 
 ![](static/small-nothing.png)
 
-@## Something went wrong
+## Something went wrong
 
 Use this state, when something went wrong at the backend. And either product team does not have any information, what exactly went wrong and where it will be repaired, or product team know about the problem and inform the user about it.
 
@@ -118,8 +119,8 @@ Show the following instead of the data in this case:
 
 > We recommend to show the button in this state.
 
-| Wide widget                               | Medium widget                                   | Text                                                                                                                                           |
-| ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wide widget               | Medium widget                | Text                                                                                                                       |
+| ------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | ![](static/big-error.png) | ![](static/medium-error.png) | Title: "Something went wrong". Description: "We are aware of the issue and are working to fix it. Please try again later". |
 
 If your widget has width less than 300px, you may leave just the title with styles of the description text. And hide the description into the Info icon with M size.
@@ -136,15 +137,15 @@ Show the following instead of the data in this case:
 
 > We recommend to show the button in this state.
 
-| Wide widget                                 | Medium widget                                     | Text                                                                                                                                              |
-| ------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wide widget                 | Medium widget                  | Text                                                                                                                 |
+| --------------------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
 | ![](static/big-error-2.png) | ![](static/medium-error-2.png) | Title: "Something went wrong". Description: "Please try again later. If the problem persists, contact us at {email}" |
 
 If your widget has width less than 300px, you may leave just the title with styles of the description text. And hide the description into the Info icon with M size.
 
 ![](static/small-error-2.png)
 
-@## Custom messages
+## Custom messages
 
 ### User has done something wrong
 
@@ -155,8 +156,8 @@ Show the following instead of the data in this case:
 - an image;
 - text message specifying what user should do.
 
-| Wide widget                                      | Medium widget                                          | Text                                                                                                                             |
-| ------------------------------------------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Wide widget                      | Medium widget                       | Text                                                                                                                             |
+| -------------------------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | ![](static/big-error-filter.png) | ![](static/medium-error-filter.png) | Title: "Cannot {filter/search/sort} data". Description: "{Provide helpful information for the user to deal with the situation}". |
 
 If your widget has width less than 300px, you may leave just the title with styles of the description text. And hide the description into the Info icon with M size.
@@ -178,8 +179,8 @@ Show the following instead of the data in this state:
 - text message specifying what user should set up or do in order to obtain the data;
 - button.
 
-| Wide widget                                 | Medium widget                                     | Text                                                           |
-| ------------------------------------------- | ------------------------------------------------- | -------------------------------------------------------------- |
+| Wide widget                | Medium widget                 | Text                                                           |
+| -------------------------- | ----------------------------- | -------------------------------------------------------------- |
 | ![](static/big-set-up.png) | ![](static/medium-set-up.png) | Title: "Set up your {Name Tool}". Description: {Hint message}. |
 
 If your widget has width less than 300px, you may leave just the title with styles of the description text. And hide the description into the Info icon with M size.

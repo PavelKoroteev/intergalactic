@@ -4,13 +4,13 @@ fileSource: feedback-form
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **Feedback** is the form for sending feedback or suggestions to the product team. In most cases it drops from the "Send feedback" link at the upper right of the page.
 
 > When the link for feedback is in the [ProductHead](/components/product-head/), it should be always the far right. Learn more in the [Links order in ProductHead](/patterns/links-order/).
 
-@## Сomponent composition
+## Сomponent composition
 
 ### Obligatory elements
 
@@ -28,7 +28,7 @@ tabName: Design
 
 ![](static/options.png)
 
-@## Styles
+## Styles
 
 - Dropdown has `padding: var(--spacing-4x)`.
 - All inputs in this form has one size – M.
@@ -36,18 +36,18 @@ tabName: Design
 
 ![](static/send-feedback-sizes.png)
 
-@## Placement
+## Placement
 
 In most cases the feedback form drops from the link "Send feedback" at the upper right of the page or from the buttons of notice for feedback collection.
 
 In some cases it may drop from the button "Send feedback", located in the report's widget or widgets.
 
-| Variant of the form location                                       | Example                                               |
-| ------------------------------------------------------------------ | ----------------------------------------------------- |
+| Variant of the form location                                       | Example                              |
+| ------------------------------------------------------------------ | ------------------------------------ |
 | The basic variant of the form location                             | ![](static/send-feedback.png)        |
 | Variant of the form location in the notice for feedback collection | ![](static/send-feedback-notice.png) |
 
-@## Interaction
+## Interaction
 
 > If the user closes the form and then opens it again, the content previously entered into the inputs should be saved.
 
@@ -88,19 +88,19 @@ You may add a message about the alternative way to send feedback with the `mailt
 - After validation of the inputs and sending of the message show the success illustration and the text "Thank you for your feedback!". After `2500ms` the dropdown is smoothly closed with a fade of `500ms`.
 - After clicking the `Cancel` button the dropdown is closed.
 
-@## Keyboard control
+## Keyboard control
 
 1. `Tab` moves focus between the inputs.
 2. `Cmd`+`Enter` (`Ctrl`+`Enter` in Windows) submit a message.
 3. `Esc` closes form.
 
-@## Message sending
+## Message sending
 
 Wrap all form into [SpinContainer](/components/spin-container/) with the [XL size Spin](/components/spin/).
 
 ![](static/loading.png)
 
-@## Invalid inputs
+## Invalid inputs
 
 #### Invalid textarea
 
@@ -125,7 +125,7 @@ The text for a message in the tooltip: "Your feedback must contain at least 3 wo
 
 ![](static/validation-3.png)
 
-@## Error at backend
+## Error at backend
 
 - If an error occurred after submitting the form, show the message instead of the message with `mailto` link.
 - If `mailto` link already exists, change its color into red and replace the message text.
@@ -134,7 +134,7 @@ Message text for this case: "Your message has not been sent. Please try again or
 
 ![](static/error.png)
 
-@## Success submitting
+## Success submitting
 
 In case of successful submitting the form show success message. This status is shown during 3-5 seconds, and then it is closed. Also you may close it yourself, as any other dropdown (by clicking outside it).
 

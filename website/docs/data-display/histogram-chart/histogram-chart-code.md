@@ -3,12 +3,14 @@ title: Legacy examples
 fileSource: d3-chart
 ---
 
-> 🚨 Library `@semcore/chart` is deprecated. Please, use new chart library [`@semcore/d3-chart`](/data-display/area-chart/area-chart-d3-code/) instead.
+::: warning
+:rotating_light: Library `@semcore/chart` is deprecated. Please, use new chart library [`@semcore/d3-chart`](/data-display/area-chart/area-chart-d3-code/) instead.
+:::
 
-@## Example of a simple histogram chart
+## Example of a simple histogram chart
 
 @example simple-recharts
 
-@## Data loading
+## Data loading
 
 @example skeleton-recharts

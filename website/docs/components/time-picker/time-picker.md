@@ -6,11 +6,11 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **Time picker** is a component with comboboxes for entering/selecting time.
 
-@## Appearance
+## Appearance
 
 - The component includes two [comboboxes](/components/auto-suggest/#a70085) inside the input.
 - If the user needs to choose the time in a 12-hour format, then add a button for switching AM/PM. It saves an extra click on the seelct opening.
@@ -23,14 +23,14 @@ tabName: Design
 
 ![](static/input-l.png)
 
-@## Sizes and paddings
+## Sizes and paddings
 
-| Input size | Appearance                                                                          | Paddings                           |
-| ---------- | ----------------------------------------------------------------------------------- | ---------------------------------- |
+| Input size | Appearance                                              | Paddings                           |
+| ---------- | ------------------------------------------------------- | ---------------------------------- |
 | M          | ![](static/input-default-m.png) ![](static/input-m.png) | ![paddings](static/paddings-m.png) |
 | L          | ![](static/input-default-l.png) ![](static/input-l.png) | ![paddings](static/paddings-l.png) |
 
-@## Interaction
+## Interaction
 
 The first combobox is hours selection, the second one is minutes selection.
 
@@ -59,7 +59,7 @@ When user navigates to a button with Tab, the button gets `focus`.
 - In the first case the combobox step equals a minute. The user can set, for example, 13:13.
 - In the second case the combobox step can range depending on the required time pre-settings. For example, 00, 15, 30, 45 etc. are rather popular for minutes.
 
-@## Validation
+## Validation
 
 ### When TimePicker needs validation
 

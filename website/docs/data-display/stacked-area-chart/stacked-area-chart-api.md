@@ -3,7 +3,7 @@ title: API
 fileSource: d3-chart
 ---
 
-@## D3 API
+## D3 API
 
 It have children components `Area`.
 
@@ -17,7 +17,7 @@ import { StackedArea } from '@semcore/ui/d3-chart';
 
 @typescript IStackedAreaProps
 
-@## Recharts API
+## Recharts API
 
 ```js
 import { AreaChart } from '@semcore/chart';

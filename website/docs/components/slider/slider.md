@@ -4,7 +4,7 @@ fileSource: slider
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **Slider** is a component for entering values from the available range.
 
@@ -16,7 +16,7 @@ In [practical point of view](https://www.nngroup.com/articles/sliders-knobs/), a
 - you need to additionally visualize the maximum range of the usual [InputNumber](/components/input-number/);
 - the user needs to specify an approximate value (for example, a change of the color brightness).
 
-@## Component composition
+## Component composition
 
 - `Slider.Knob`
 - `Slider.Bar`
@@ -27,14 +27,14 @@ In [practical point of view](https://www.nngroup.com/articles/sliders-knobs/), a
 
 > When designing such kind of an input, keep in mind the [Akkot-Tsai law](https://en.wikipedia.org/wiki/Steering_law). It describes the dependence of the time for performing an action on the thickness and width of the horizontal control with which this action can be performed. So the larger the slider knob and the larger the bar itself, the easier and faster it is to manipulate it.
 
-@## Sizes
+## Sizes
 
 Default component sizes:
 
 - `bar height – 4px`
 - `knob size – 20px * 20px`
 
-@## Default styles
+## Default styles
 
 Default component styles:
 
@@ -43,7 +43,7 @@ Default component styles:
 
 ![](static/default.png)
 
-@## Value labels
+## Value labels
 
 You can show values under the input.
 
@@ -53,15 +53,15 @@ You can show values under the input.
 
 > For mobile devices, show values or tooltips with values **OVER the input**. When using this component on touch devices, the values will fall under the finger when manipulating the slider knob.
 
-@## Interaction
+## Interaction
 
 ### States
 
-| State        | Description                                                                                                                                                 | Appearance                                                              |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| Default      | Knob size is `20px * 20px`.                                                                                                                                 | ![](static/default.png)                            |
+| State        | Description                                                                                                                                                 | Appearance                                      |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Default      | Knob size is `20px * 20px`.                                                                                                                                 | ![](static/default.png)                         |
 | Hover        | The color of the bar changes to `--progress-bar-bg-hover`. The slider knob changes color to `--control-primary-info-hover`. Change the cursor to `pointer`. | ![](static/bar-hover.png) ![](static/hover.png) |
-| Active/focus | The slider knob scales to `30px * 30px`. By clicking on the bar anywhere, the slider is pulled up and gets the `active` state.                              | ![](static/active.png)                                     |
+| Active/focus | The slider knob scales to `30px * 30px`. By clicking on the bar anywhere, the slider is pulled up and gets the `active` state.                              | ![](static/active.png)                          |
 
 ### Linked input
 
@@ -71,15 +71,15 @@ This design helps to reduce errors associated with homing (moving the hand from 
 
 - If the user enters a value through an input associated with the slider, the hover is not applied to the slider. The slider knob moves depending on the value entered into the input.
 
-| State        | Description                                                                                                 | Appearance                                           |
-| ------------ | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| State        | Description                                                                                                 | Appearance                   |
+| ------------ | ----------------------------------------------------------------------------------------------------------- | ---------------------------- |
 | Active/focus | By clicking on the input, the slider knob is pulled to the corresponding value and gets the `active` state. | ![](static/linked-input.png) |
 
 - If the input has a maximum value, and the user entered a value greater than the maximum, show a warning tooltip with an appropriate message.
 
 ![](static/maximum.png)
 
-@## Keyboard support
+## Keyboard support
 
 - `Tab` moves focus to the slider.
 - Keyboard arrows, '←' and '→', move the slider knob to the step specified in the input.
@@ -87,7 +87,7 @@ This design helps to reduce errors associated with homing (moving the hand from 
 
 > If the slider knob has focus, the user can move it with the keyboard arrows – '←', '→'.
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 ### When to use the slider
 

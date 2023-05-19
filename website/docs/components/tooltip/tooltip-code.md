@@ -10,13 +10,13 @@ The component is a wrap over [@semcore/ui/popper](/utils/popper/) with the follo
 - Stylization and themes for a dropdown window
 - Displaying the arrow of a dropdown window
 
-@## Basic use
+## Basic use
 
 As mentioned above, tooltip is just a stylized wrap over the [@semcore/ui/popper](/utils/popper/). It works exactly the same way.
 
 @example tooltip
 
-@## Title
+## Title
 
 For your convenience, the component has property `title`, to which you can pass content for a dropdown window. This will allow you to reduce the volume of the code 🧐
 
@@ -24,7 +24,7 @@ The code below fully repeats the functionality of the previous example.
 
 @example tooltip-title
 
-@## Singleton
+## Singleton
 
 Use a single tooltip for many different reference elements. This allows you to "group" tooltips with a shared timer
 to improve UX.

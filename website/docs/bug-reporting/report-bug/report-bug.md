@@ -4,7 +4,7 @@ title: Bug reporting
 
 Have you found a bug in the one of our components and don't know where or to whom to write? We have some ways to report bugs.
 
-@## Report with GitHub issues
+## Report with GitHub issues
 
 Submit a bug/request for an improvement in the [GitHub through issues](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests).
 
@@ -12,7 +12,7 @@ Submit a bug/request for an improvement in the [GitHub through issues](https://d
 - Saves the history of changes and discussions of all components.
 - Maybe inconvenient for designers and other departments, since not everyone has a GitHub account.
 
-@## Report with internal Slack chat
+## Report with internal Slack chat
 
 Use internal Slack chat (**#ui-kit-team**) to report and discuss bugs, improvements and other questions you want to address the Semrush UI Kit Team.
 

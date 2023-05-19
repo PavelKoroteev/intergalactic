@@ -8,7 +8,7 @@ tabName: Design
 
 > This component is one of the components that displays interface's reaction to user actions in the interface. For general rules on such components, see the [Loading patterns](/patterns/loading-states/).
 
-@## Description
+## Description
 
 **ProgressBar** is a component for displaying the loading status of a long process, usually more than 5 seconds. _For example, collecting keywords or updating mentions._
 
@@ -16,34 +16,34 @@ As a rule, the progress bar does not block working with the product. The excepti
 
 > This component is one of the components that displays the loading and response to user actions in the interface. For general recommendations for such components, see [Loading patterns](/patterns/loading-states/).
 
-@## Component composition
+## Component composition
 
 ProgressBar consists from (surprise!) `ProgressBar` and `ProgressBar.Value`.
 
 ![](static/progressbar-scheme.png)
 
-@## Sizes
+## Sizes
 
 Our ProgressBar has three sizes.
 
-| Size (height in px) | Appearance                               | Styles                                                   | Where to use                                                          |
-| ---- | ---------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------- |
-| S    | ![](static/size-s.png) | `height: 4px`, `border-radius: var(--rounded-medium)`  | Use in widgets inside reports/products.                               |
-| M    | ![](static/size-m.png) | `height: 8px`, `border-radius: var(--rounded-medium)`  | Use inside the product.                                               |
-| L    | ![](static/size-l.png) | `height: 12px`, `border-radius: var(--rounded-medium)` | Use in modal windows, on the start screen when launching the product. |
+| Size (height in px) | Appearance             | Styles                                                 | Where to use                                                          |
+| ------------------- | ---------------------- | ------------------------------------------------------ | --------------------------------------------------------------------- |
+| S                   | ![](static/size-s.png) | `height: 4px`, `border-radius: var(--rounded-medium)`  | Use in widgets inside reports/products.                               |
+| M                   | ![](static/size-m.png) | `height: 8px`, `border-radius: var(--rounded-medium)`  | Use inside the product.                                               |
+| L                   | ![](static/size-l.png) | `height: 12px`, `border-radius: var(--rounded-medium)` | Use in modal windows, on the start screen when launching the product. |
 
-@## Themes and styles
+## Themes and styles
 
 ProgressBar has two themes: `dark` and `invert` – for using on light and dark/colored backgrounds, respectively.
 
 Both themes use `--progress-bar-value` token for color with the gradient pattern to display progress value.
 
-| Theme  | Appearance                                            | Styles                                       |
-| ------ | ----------------------------------------------------- | -------------------------------------------- |
-| Invert | ![](static/size-l.png)   | `background: var(--progress-bar-bg)`        |
+| Theme  | Appearance                 | Styles                                      |
+| ------ | -------------------------- | ------------------------------------------- |
+| Invert | ![](static/size-l.png)     | `background: var(--progress-bar-bg)`        |
 | Dark   | ![](static/dark-theme.png) | `background: var(--progress-bar-bg-invert)` |
 
-@## ProgressBar with counter
+## ProgressBar with counter
 
 You can display a counter next to the progress bar to show how many of the files were loaded. If there is no data on the exact number of files, then display nothing.
 
@@ -55,7 +55,7 @@ Depending on the usage context, place a counter above or near the progress bar.
 
 ![](static/progressbar-counter-above.png)
 
-@## Interaction
+## Interaction
 
 ### States
 
@@ -81,7 +81,7 @@ The progress bar shall not remain in the 100% state – once the process is comp
 
 Progress value is always animated with `ease-in`.
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 ### When to use ProgressBar
 

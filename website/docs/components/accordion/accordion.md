@@ -4,7 +4,7 @@ fileSource: accordion
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **Accordion** is a component which allows you to hide/display areas with a large amount of data.
 
@@ -19,7 +19,7 @@ tabName: Design
 >
 > Use dropdown primarily to hide additional features and sometimes additional information.
 
-@## Appearance
+## Appearance
 
 The accordion consists of:
 
@@ -32,22 +32,22 @@ The `ChevronRight` icon always has M size and `margin-right: 8px` with all font 
 
 > Please note that you can use different styles for the trigger and collapsed content than the default ones described below.
 
-@## Sizes
+## Sizes
 
 You can set the width of the accordion that is appropriate for the context.
 
 ![](static/max-width.png)
 
-@## Trigger
+## Trigger
 
 > You can use text, link or button of any size you need as the accordion trigger.
 
-|                              | Appearance example                          | Default styles                                                                                                                                                                                                                                 |
-| ---------------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Accordion without background | ![](static/default.png)    | For the icon color use `--icon-primary-neutral` token; for the text `--text-primary` token.                                                                                                                                                  |
+|                              | Appearance example         | Default styles                                                                                                                                                                                                                                 |
+| ---------------------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Accordion without background | ![](static/default.png)    | For the icon color use `--icon-primary-neutral` token; for the text `--text-primary` token.                                                                                                                                                    |
 | Accordion with background    | ![](static/default-bg.png) | For the background and text color you can use any background color from the [semantic tokens list](/style/design-tokens/#semantic_tokens) depending on the usage context. For the default background color use `--bg-secondary-neutral` token. |
 
-@## Collapsed content
+## Collapsed content
 
 You can use this component to hide almost any content. This can be a text content, an additional information (for example, in a table), or even an entire table with a chart.
 
@@ -61,7 +61,7 @@ You can use this component to hide almost any content. This can be a text conten
 
 ![](static/item-paddings.png)
 
-@## Interaction
+## Interaction
 
 > **By default, when a section of the accordion is opened, other sections that have already been opened should not be closed**.
 >
@@ -73,19 +73,19 @@ You can use this component to hide almost any content. This can be a text conten
 
 ![](static/hoverzone.png)
 
-| State    | Appearance examples                              | Description and styles                                                                                                                                                                 |
-| -------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Default  | ![](static/default-state.png)   |                                                                                                                                                                                        |
-| Hover    | ![](static/hover-state.png)       | The color of the icon changes to the next in the palette – `--icon-primary-neutral-hover-active`. If the accordion trigger has a background, it can also change color when hovering. |
-| Active   | ![](static/active-state.png)     | The `ChevronRight` icon rotates to 90 degrees: `transform: rotate(90deg)`. All other trigger styles remain the same as in the `hover` state.                                          |
-| Disabled | ![](static/disabled-state.png) | Use [`--disabled-opacity`](/style/design-tokens/) token.                                                                                                                               |
-| Loading  | ![](static/loading-state.png)   | If the system needs time to load the content hidden in the accordion, then show [Spin](/components/spin/) with a respective size. By default, the spinner size is XS.                  |
+| State    | Appearance examples            | Description and styles                                                                                                                                                               |
+| -------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Default  | ![](static/default-state.png)  |                                                                                                                                                                                      |
+| Hover    | ![](static/hover-state.png)    | The color of the icon changes to the next in the palette – `--icon-primary-neutral-hover-active`. If the accordion trigger has a background, it can also change color when hovering. |
+| Active   | ![](static/active-state.png)   | The `ChevronRight` icon rotates to 90 degrees: `transform: rotate(90deg)`. All other trigger styles remain the same as in the `hover` state.                                         |
+| Disabled | ![](static/disabled-state.png) | Use [`--disabled-opacity`](/style/design-tokens/) token.                                                                                                                             |
+| Loading  | ![](static/loading-state.png)  | If the system needs time to load the content hidden in the accordion, then show [Spin](/components/spin/) with a respective size. By default, the spinner size is XS.                |
 
-@## Animation
+## Animation
 
 For smooth content display and icon rotation, the component has `transition: all 0.35s`.
 
-@## Use in UI/UX
+## Use in UI/UX
 
 ### Accordion on mobile devices
 

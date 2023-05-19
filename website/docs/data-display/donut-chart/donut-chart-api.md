@@ -3,7 +3,7 @@ title: API
 fileSource: d3-chart
 ---
 
-@## D3 API
+## D3 API
 
 It have children components `Pie`, `Label`, `EmptyData`.
 
@@ -19,7 +19,7 @@ import { Donut } from '@semcore/ui/d3-chart';
 
 @typescript IDonutProps
 
-@## Recharts API
+## Recharts API
 
 ```js
 import { PieChart } from '@semcore/chart';

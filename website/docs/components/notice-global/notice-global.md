@@ -6,7 +6,7 @@ tabName: Design
 
 @import playground
 
-@## Description
+## Description
 
 **NoticeGlobal** is a component for messages about events related to the work of the whole website.
 
@@ -25,7 +25,7 @@ The notice shall meet four criteria. If it doesn't respond to at least one, it's
 - an outdated browser version;
 - messages relates to the work of the whole site (downgrade, technical work, etc.).
 
-@## Appearance
+## Appearance
 
 ### Paddings
 
@@ -35,7 +35,7 @@ The notice shall meet four criteria. If it doesn't respond to at least one, it's
 
 ![](static/gnotice-margins.png)
 
-@## Notice themes
+## Notice themes
 
 ### Neutral
 
@@ -67,14 +67,14 @@ Use it for a serious error/problem message concerning the whole website. Notice 
 
 ![](static/gnotice-danger.png)
 
-@## Placement in the interface
+## Placement in the interface
 
 - Place this notice always above the main Semrush header.
 - Stretch it to the full width of the screen.
 
 ![](static/placement.png)
 
-@## Interaction
+## Interaction
 
 ### Appearance
 
@@ -101,7 +101,7 @@ When you hide the notice, the entire page pulls up to the height of the closed c
 
 By clicking on the closing icon/closing link, the notice shall close smoothly with `fade-out of 250ms`. The page content is pulled to the notice place within 250ms.
 
-@## Custom notice
+## Custom notice
 
 These are the notices that have their own rules and their styles differ from preset themes.
 
@@ -113,7 +113,7 @@ Keep in mind, however, that the extra accent notice on the page adds visual nois
 
 ![](static/gnotice-illustration.png)
 
-@## Edge cases
+## Edge cases
 
 ### Two notices per page
 
@@ -126,7 +126,7 @@ In cases where a user on the site has two or more global messages to display, pr
 - Higher priority for messages that require a response from the user or contain controls to close or exit a special mode.
 - Messages without controls inside have lower priority. Show them after a user has interacted with a higher priority message.
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 - You can notify about the following: website mode (e.g., admin), system status (error, failure, end of works).
 - Be concise – don't supersede other widgets and other report functionality. Try to convey the meaning of your message to users in one line.

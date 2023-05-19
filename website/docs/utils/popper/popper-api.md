@@ -3,7 +3,7 @@ title: API
 fileSource: popper
 ---
 
-@## Popper
+## Popper
 
 This is a wrapper for creating a context, which does not create additional nodes in the house.
 
@@ -14,7 +14,7 @@ import Popper from '@semcore/ui/popper';
 
 @typescript IPopperProps
 
-@## Popper.Trigger
+## Popper.Trigger
 
 The element to which `<Popper.Popper/>` will be attached.
 
@@ -25,7 +25,7 @@ import Popper from '@semcore/ui/popper';
 
 @typescript IPopperTriggerProps
 
-@## Popper.Popper
+## Popper.Popper
 
 The element which will be attached to `<Popper.Trigger/>`.
 

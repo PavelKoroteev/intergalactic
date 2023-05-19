@@ -3,7 +3,7 @@ title: AutoSuggest
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **AutoSuggest**, **AutoComplete** and **Combobox** are different patterns for as-you-type suggestions for search with values filtering from the list.
 
@@ -17,14 +17,14 @@ We have collected the table of differences between these search patterns.
 
 > If your search behavior differs from those described in the table, do not hesitate to drop us a line so we can update the guide.
 
-@## Pattern composition
+## Pattern composition
 
 These patterns use the following components:
 
 - [Input](/components/input);
 - [Select](/components/select).
 
-@## Combobox
+## Combobox
 
 **Combobox** is a combination of input and select. In other words it's a select with the possibility to enter the value from the list.
 
@@ -53,7 +53,7 @@ If your interface needs more time to load the items list, show [Spin](/component
 
 ![](static/spinner.png)
 
-@## AutoComplete, AutoSuggest
+## AutoComplete, AutoSuggest
 
 **AutoComplete and AutoSuggest** are combinations of input and select. As user enters information into the input, the corresponding results are displayed in the DropdownMenu.
 
@@ -67,21 +67,21 @@ As the user enters information into the input, the item list is filtered and onl
 
 Activating an item in the list selects it and the DropdownMenu closes.
 
-| State                | Appearance example                                         |
-| -------------------- | ---------------------------------------------------------- |
-| Default              | ![](static/default.png)                       |
-| Start typing         | ![](static/start.png)                          |
-| Loading results      | ![](static/loading-1.png)                     |
-| Something went wrong | ![](static/error.png)                           |
-| Results              | ![](static/results.png)                       |
-| Loading results      | ![](static/loading-2.png)                     |
+| State                | Appearance example                      |
+| -------------------- | --------------------------------------- |
+| Default              | ![](static/default.png)                 |
+| Start typing         | ![](static/start.png)                   |
+| Loading results      | ![](static/loading-1.png)               |
+| Something went wrong | ![](static/error.png)                   |
+| Results              | ![](static/results.png)                 |
+| Loading results      | ![](static/loading-2.png)               |
 | Nothing found        | ![](static/nothing-found-auto-tips.png) |
 
-@## Usage examples
+## Usage examples
 
-| Search type                                            | Appearance example                       |
-| ------------------------------------------------------ | ---------------------------------------- |
-| Combobox in the [TimePicker](/components/time-picker/) | ![](static/combobox.png)         |
+| Search type                                            | Appearance example           |
+| ------------------------------------------------------ | ---------------------------- |
+| Combobox in the [TimePicker](/components/time-picker/) | ![](static/combobox.png)     |
 | AutoComplete                                           | ![](static/autocomplete.png) |
 
 @page auto-suggest-a11y

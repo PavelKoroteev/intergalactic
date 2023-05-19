@@ -3,7 +3,7 @@ title: API
 fileSource: base-trigger
 ---
 
-@## BaseTrigger
+## BaseTrigger
 
 Basic trigger-button for all dropdowns.
 
@@ -13,7 +13,7 @@ import { BaseTrigger } from '@semcore/ui/base-trigger';
 
 @typescript IBaseTriggerProps
 
-@## ButtonTrigger
+## ButtonTrigger
 
 Button-trigger with the `ChevronDownM` icon.
 
@@ -23,7 +23,7 @@ import { ButtonTrigger } from '@semcore/ui/base-trigger';
 
 @typescript IButtonTriggerProps
 
-@## LinkTrigger
+## LinkTrigger
 
 This trigger looks like a link with the `ChevronDownM` icon.
 
@@ -33,7 +33,7 @@ import { LinkTrigger } from '@semcore/ui/base-trigger';
 
 @typescript ILinkTriggerProps
 
-@## FilterTrigger
+## FilterTrigger
 
 Trigger for filters.
 

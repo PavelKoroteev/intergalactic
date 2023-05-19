@@ -6,7 +6,7 @@ tabName: Design
 
 > For General recommendations on modal window content styles, see [Content in modal window](/patterns/modal-content/).
 
-@## Description
+## Description
 
 **Modal window** is a component that appears on top of the page to show the important information or request a response from the user. It blocks all functions of the parent window. The modal window remains on the screen until the user performs the required action or closes the window.
 
@@ -32,7 +32,7 @@ Do not open windows without prior action by the user. **Limit modal windows are 
 
 > For general recommendations for content styles in modal windows see [Modal content styles](/patterns/modal-content/).
 
-@## Component composition
+## Component composition
 
 The modal window consists of:
 
@@ -43,7 +43,7 @@ The modal window consists of:
 
 ![](static/modal-scheme.png)
 
-@## Types of modal windows
+## Types of modal windows
 
 We have several modal window types:
 
@@ -51,38 +51,38 @@ We have several modal window types:
 - gallery ([Carousel](/components/carousel/));
 - fullscreen ([FullscreenModal](/components/fullscreen-modal/), can also be one- or two-zone).
 
-@## Basic styles for modal windows
+## Basic styles for modal windows
 
 ### Container
 
-| Styles                                                                 | Example                                 |
-| ---------------------------------------------------------------------- | --------------------------------------- |
+| Styles                                                               | Example                   |
+| -------------------------------------------------------------------- | ------------------------- |
 | `border-radius: var(--rounded-large)`, `padding: var(--spacing-10x)` | ![](static/container.png) |
 
 ### Close button (optional)
 
-| Styles                                                                                                                                                 | Example                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
-| `Close` icon size **M**, use `--icon-secondary-neutral` token for default color, and `--icon-secondary-neutral-hover-active` for color in hover state. | ![](static/close-hover.png)           |
-| Paddings from top and right to the `Close` icon is 12px.                                                                                               | ![modal close button](static/close-button.png)                |
-| The cross target area is 48px * 48px.                                                                                                              | ![](static/close-hover-zone.png) |
+| Styles                                                                                                                                                 | Example                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
+| `Close` icon size **M**, use `--icon-secondary-neutral` token for default color, and `--icon-secondary-neutral-hover-active` for color in hover state. | ![](static/close-hover.png)                    |
+| Paddings from top and right to the `Close` icon is 12px.                                                                                               | ![modal close button](static/close-button.png) |
+| The cross target area is 48px \* 48px.                                                                                                                 | ![](static/close-hover-zone.png)               |
 
 ### Overlay
 
-| Tokens                                                                                        | Example                                     |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------- |
-| `--overlay-primary`                                                                           | ![](static/modal-overlay.png)  |
-| Overlay style when opening a modal window inside another modal window – `--overlay-secondary` | ![](static/second-modal.png) |
+| Tokens                                                                                        | Example                       |
+| --------------------------------------------------------------------------------------------- | ----------------------------- |
+| `--overlay-primary`                                                                           | ![](static/modal-overlay.png) |
+| Overlay style when opening a modal window inside another modal window – `--overlay-secondary` | ![](static/second-modal.png)  |
 
 > Use a modal window inside another modal window only when necessary – if nothing at all fits. Look through an [amazing Manifesto](https://modalzmodalzmodalz.com/) against the ubiquitous use of modal windows. Meditate.
 
-@## Window size
+## Window size
 
 The modal window must be at least 320px and no larger than 720px for the desktop version.
 
 ![](static/yes-modal.png)
 
-@## Interaction
+## Interaction
 
 ### Opening a window
 
@@ -129,7 +129,7 @@ When loading or reloading content inside the modal window, [Spin](/components/sp
 
 ![](static/modal-spin.png)
 
-@## Positioning
+## Positioning
 
 The modal window is centered vertically and horizontally relative to the browser window.
 
@@ -145,7 +145,7 @@ If the modal window changes the size when the user interacts with it, it is reco
 ![](static/position-4-1.png)
 ![](static/position-4-2.png)
 
-@## Changing browser size
+## Changing browser size
 
 ### Vertically
 
@@ -164,7 +164,7 @@ See [examples](/components/modal/modal-code/) of resizing a modal window to fit 
 
 ![](static/position-5-2.png)
 
-@## Scroll
+## Scroll
 
 When the modal window height does not fit the browser window, it shall be positioned with a 40px indent from the upper border.
 
@@ -185,7 +185,7 @@ If necessary, you can freeze the area inside the modal window. For example, butt
 
 ![](static/scroll-4.png)
 
-@## Window title
+## Window title
 
 If the modal window is used to cause a specific action by the user, make a brief and clear title of the window. **No more than 3-4 words**.
 
@@ -195,7 +195,7 @@ If the modal window is used for confirmation, the title shall contain a question
 
 ![](static/heading-yes-no.png)
 
-@## Buttons usage in modal window
+## Buttons usage in modal window
 
 Centering the buttons shall be the same as the centering of the title.
 

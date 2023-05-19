@@ -3,6 +3,6 @@ title: Example
 fileSource: pills
 ---
 
-@## Simple example
+## Simple example
 
 @example basic

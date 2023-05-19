@@ -3,17 +3,19 @@ title: Legacy examples
 fileSource: d3-chart
 ---
 
-> 🚨 Library `@semcore/chart` is deprecated. Please, use new chart library [`@semcore/d3-chart`](/data-display/area-chart/area-chart-d3-code/) instead.
+::: warning
+:rotating_light: Library `@semcore/chart` is deprecated. Please, use new chart library [`@semcore/d3-chart`](/data-display/area-chart/area-chart-d3-code/) instead.
+:::
 
-@## An example of a simple use
+## An example of a simple use
 
 @example simple-recharts
 
-@## Complex example with filtering
+## Complex example with filtering
 
 @example complex-recharts
 
-@## Increasing the sector by an event on the chart
+## Increasing the sector by an event on the chart
 
 A short instruction on how to achieve the desired result:
 
@@ -58,6 +60,6 @@ import {Pie} from '@semcore/charts'
 
 _If something went wrong, here's a working [example](/data-display/donut-chart/donut-chart-recharts-code/#a6b6cd)._
 
-@## Data loading
+## Data loading
 
 @example skeleton-recharts

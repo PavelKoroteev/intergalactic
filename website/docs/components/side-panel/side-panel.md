@@ -6,7 +6,7 @@ tabName: Design
 
 > In the [2.0.0 version](/components/side-panel/side-panel-changelog/), component was divided into three parts: `Header`,`Body` and `Footer`. This was done to make it easier to use the restyling component. Also, got an optional `Back` button.
 
-@## Description
+## Description
 
 **SidePanel** is a component for displaying the sliding panel with content. It's also can be called just panel or drawer.
 
@@ -23,7 +23,7 @@ Use SidePanel when it is needed:
 - Help Center or News panel in products;
 - "panels" on mobile devices.
 
-@## Triggers
+## Triggers
 
 - News icon in the main header of the website.
 - Additional link in [ProductHead](/components/product-head/).
@@ -31,12 +31,12 @@ Use SidePanel when it is needed:
 - Charts inside the report, which can be clicked to show additional information.
 - On small screens other controls can serve as a trigger to open SidePanel.
 
-@## Component composition
+## Component composition
 
 1. SidePanel
 2. SidePanel.Header
-    - SidePanel.Back
-    - SidePanel.Title
+   - SidePanel.Back
+   - SidePanel.Title
 3. SidePanel.Close (optional)
 4. SidePanel.Body
 5. SidePanel.Footer (optional)
@@ -44,14 +44,14 @@ Use SidePanel when it is needed:
 
 ![](static/sidepanel-scheme.png)
 
-@## Overlay
+## Overlay
 
-|                 | Appearance example                     | Styles                                                                                                           | When to use                                                                             |
-| --------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+|                 | Appearance example          | Styles                                                                                                           | When to use                                                                             |
+| --------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | Without overlay | ![](static/light-theme.png) | In this case the panel has the shadow: `box-shadow: 0px 1px 12px var(--box-shadow-popper)`. There is no overlay. | Use this version if you need to show additional information for a report/product/block. |
-| With overlay    | ![](static/dark-theme.png)   | In this case panel has an overlay with styles: `background-color: var(--overlay-primary)`. There is no shadow.   | If you need to focus the user on information inside SidePanel, enable overlay.          |
+| With overlay    | ![](static/dark-theme.png)  | In this case panel has an overlay with styles: `background-color: var(--overlay-primary)`. There is no shadow.   | If you need to focus the user on information inside SidePanel, enable overlay.          |
 
-@## Default sizes and indents
+## Default sizes and indents
 
 ### Width
 
@@ -71,7 +71,7 @@ The padding between title and content:
 
 ![](static/content-paddings.png)
 
-@## Common styles and recommendations
+## Common styles and recommendations
 
 ### Header
 
@@ -79,10 +79,10 @@ For panel's title use 16px text (`--fs-300`, `--lh-300`) with `font-weight: var(
 
 > Pin header when scrolling large content inside the SidePanel.
 
-| Appearance example                    | Styles                                                                                                                       |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| ![](static/header.png) | `height: 52px`, `padding-bottom: var(--spacing-1x)`, `align-items: center`, `border-bottom: 1px solid var(–-border-primary)` |
-| ![](static/closeIcon.png)   | `Close` icon has L size and use `--icon-secondary-neutral` token for color. Click zone of the icon is `48px * 48px`.         |
+| Appearance example        | Styles                                                                                                                       |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| ![](static/header.png)    | `height: 52px`, `padding-bottom: var(--spacing-1x)`, `align-items: center`, `border-bottom: 1px solid var(–-border-primary)` |
+| ![](static/closeIcon.png) | `Close` icon has L size and use `--icon-secondary-neutral` token for color. Click zone of the icon is `48px * 48px`.         |
 
 ### Content
 
@@ -116,7 +116,7 @@ border-top: 1px solid var(–-border-primary);
 
 ![](static/footer-paddings.png)
 
-@## Interaction
+## Interaction
 
 ### Placement in the interface
 
@@ -153,7 +153,7 @@ SidePanel opens and closes with the animation: `transition: all 350ms ease-in-ou
 
 ![](static/320-width.png)
 
-@## Corner states
+## Corner states
 
 SidePanel should have header in all cases.
 

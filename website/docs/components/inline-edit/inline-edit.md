@@ -4,7 +4,7 @@ fileSource: inline-edit
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **InlineEdit** is a wrapper component for switching between viewing and editing data.
 
@@ -14,7 +14,7 @@ tabName: Design
 - data in the interface is placed tightly, you need to save space;
 - transferring data to the system is not the main task of the interface (for example, additional information and notes in cards).
 
-@## Appearance
+## Appearance
 
 The component consists of:
 
@@ -24,11 +24,11 @@ The component consists of:
 
 > Note that the example below is just an example. It's not a default variant. Any control component can be used as a trigger - a [button](/components/button/), an [icon](/style/icon/), text with an icon.
 
-| Appearance example                            | Styles example                                                                                                            |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Appearance example          | Styles example                                                                                                             |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | ![](static/inline-edit.png) | The color of the placeholder is the same as a regular input has - `--text-placeholder`. Text and icon has one active zone. |
 
-@## Interaction
+## Interaction
 
 - The user has clicked a trigger that opens an Input.
 - Input immediately receives focus.
@@ -37,19 +37,19 @@ The component consists of:
 
 Below you can see an example of how such a component works with one of the possible triggers.
 
-| State                   | Appearance example                              | Styles                                                                                                                                                                                                                          |
-| ----------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| State                   | Appearance example            | Styles                                                                                                                                                                                                                          |
+| ----------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Normal                  | ![](static/normal.png)        | The color of the placeholder is the same as a regular input has - `--text-placeholder`.                                                                                                                                         |
 | Hover                   | ![](static/hover.png)         | Cursor changes to `pointer`. The icon changes color to `--icon-secondary-neutral-hover-active`.                                                                                                                                 |
 | Focus                   | ![](static/opened.png)        | Show the input you need for data entry ([normal](/components/input/), [textarea](/components/textarea/), [select](/components/select), [color-picker](/components/color-picker), [time-picker](/components/time-picker), etc.). |
 | Entered data            | ![](static/success.png)       | Text color is `--text-primary`.                                                                                                                                                                                                 |
 | Entered data with hover | ![](static/success-hover.png) | Cursor changes to `pointer`. The interactive trailing addon changes color to `--icon-secondary-neutral-hover-active`.                                                                                                           |
 
-@## Animation
+## Animation
 
 The transition between the wrapped trigger and the input can be done with an `ease-in-out` of `50ms`.
 
-@## UX/UI use
+## UX/UI use
 
 In view-mode, set the text size to the same size as the edit input you selected.
 

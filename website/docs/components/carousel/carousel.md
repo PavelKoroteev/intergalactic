@@ -4,7 +4,7 @@ fileSource: carousel
 tabName: Design
 ---
 
-@## Description
+## Description
 
 **Carousel** is a component for displaying a group of content in a limited area of the interface. Most often used for gallery of images or cards.
 
@@ -17,7 +17,7 @@ tabName: Design
 
 Use the carousel as an additional highlight of important website features and information, never as the only path to an important content.
 
-@## Component composition
+## Component composition
 
 1. Navigation buttons: `Carousel.Prev`, `Carousel.Next`.
 2. Slides number indicator (optional): `Carousel.Indicators`.
@@ -26,17 +26,17 @@ Use the carousel as an additional highlight of important website features and in
 
 ![](static/carousel-scheme.png)
 
-@## Appearance
+## Appearance
 
 Component has default styles, but you can change them depending on your task.
 
 ### Default styles
 
-|                         | Default styles                                                        |
-| ----------------------- | --------------------------------------------------------------------- |
-| Navigation buttons      | Use L size for Chevron icons and `--icon-primary-neutral` token for color. |
-| Slides number indicator | Indicator has 12px * 12px size and `--bg-secondary-neutral` token for color.  |
-| Content slide           | `border-radius: var(--rounded-medium)`                               |
+|                         | Default styles                                                                |
+| ----------------------- | ----------------------------------------------------------------------------- |
+| Navigation buttons      | Use L size for Chevron icons and `--icon-primary-neutral` token for color.    |
+| Slides number indicator | Indicator has 12px \* 12px size and `--bg-secondary-neutral` token for color. |
+| Content slide           | `border-radius: var(--rounded-medium)`                                        |
 
 Click-zone of the navigation buttons (`Carousel.Prev`, `Carousel.Next`) is stretched to the height of the content.
 
@@ -54,36 +54,36 @@ This example has the same styles as the example on the light background, except 
 
 ![](static/carousel-dark.png)
 
-@## States
+## States
 
 ### Navigation buttons
 
 Navigation buttons are always center aligned.
 
-| State    | Appearance example                      | Styles                                               |
-| -------- | --------------------------------------- | ---------------------------------------------------- |
-| Default  | ![](static/default.png)   | `color: var(--icon-primary-neutral)`              |
-| Hover    | ![](static/hover.png)  | `color: var(--icon-primary-neutral-hover-active)` |
-| Disabled | ![](static/disabled.png) | `opacity: var(--disabled-opacity)`                  |
+| State    | Appearance example       | Styles                                            |
+| -------- | ------------------------ | ------------------------------------------------- |
+| Default  | ![](static/default.png)  | `color: var(--icon-primary-neutral)`              |
+| Hover    | ![](static/hover.png)    | `color: var(--icon-primary-neutral-hover-active)` |
+| Disabled | ![](static/disabled.png) | `opacity: var(--disabled-opacity)`                |
 
 ### Slides number indicators
 
 ![](static/default-indicators.png)
 
-| State               | Styles                                                                                    |
-| ------------------- | ----------------------------------------------------------------------------------------- |
-| Default + Disabled  | `color: var(--icon-secondary-neutral)` + `opacity: var(--disabled-opacity)`    |
-| Hover               | `color: var(--icon-secondary-neutral)` + `calc(2 * var(--intergalactic-disabled-opacity, 0.3))`          |
-| Active              | `color: var(--icon-secondary-neutral)`                                                  |
+| State              | Styles                                                                                          |
+| ------------------ | ----------------------------------------------------------------------------------------------- |
+| Default + Disabled | `color: var(--icon-secondary-neutral)` + `opacity: var(--disabled-opacity)`                     |
+| Hover              | `color: var(--icon-secondary-neutral)` + `calc(2 * var(--intergalactic-disabled-opacity, 0.3))` |
+| Active             | `color: var(--icon-secondary-neutral)`                                                          |
 
-@## Animation
+## Animation
 
 Default animation properties:
 
 - Animation duration – `300`.
 - Animation easing function – `ease-in-out`.
 
-@## Usage in UX/UI
+## Usage in UX/UI
 
 When using a carousel, keep in mind that some users may only see the first frame or nothing at all. Therefore, it's important to intentionally place essential content on each frame. Consider using a static carousel or a single image instead of a rotating one.
 
@@ -93,7 +93,7 @@ When using a carousel, keep in mind that some users may only see the first frame
 | **2** | Indicate the number of slides.                                                                         | Specify how many slides are present and where the user is in sequence to help people feel in control.                                                                                                                                                                                 |
 | **3** | Make links and buttons large enough to decipher and click.                                             | Tiny buttons placed close together or on top of a busy background are not easy to spot or click.                                                                                                                                                                                      |
 
-@## Auto-play
+## Auto-play
 
 > If carousel images cycle automatically, provide a pause button to let users stop the movement.
 

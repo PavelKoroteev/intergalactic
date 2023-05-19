@@ -5,7 +5,7 @@ fileSource: dropdown
 
 > The `Dropdown` is a wrap over the `Popper` with the addition of styles, presets and modifiers.
 
-@## Dropdown
+## Dropdown
 
 The wrap over the `<Popper/>` component.
 
@@ -16,7 +16,7 @@ import Dropdown from '@semcore/ui/dropdown';
 
 @typescript IDropdownProps
 
-@## Dropdown.Trigger
+## Dropdown.Trigger
 
 The wrap over the `<Popper.Trigger/>` component.
 
@@ -27,7 +27,7 @@ import Dropdown from '@semcore/ui/dropdown';
 
 @typescript IPopperTriggerProps
 
-@## Dropdown.Popper
+## Dropdown.Popper
 
 The wrap over the `<Popper.Popper/>` component.
 

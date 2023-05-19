@@ -3,27 +3,27 @@ title: Example
 fileSource: ellipsis
 ---
 
-@## Basic use
+## Basic use
 
 @example basic
 
-@## Link
+## Link
 
 @example link
 
-@## Trimming type
+## Trimming type
 
 It's possible to truncate the middle of the text string.
 
 @example middle
 
-@## Multiline
+## Multiline
 
 It's possible to specify after what text line apply truncating
 
 @example multiline
 
-@## Multiple use
+## Multiple use
 
 in case of multiple use of a component for optimization you can use one observer for all components
 

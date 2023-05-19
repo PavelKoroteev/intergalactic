@@ -3,16 +3,18 @@ title: Legacy examples
 fileSource: d3-chart
 ---
 
-> 🚨 Library `@semcore/chart` is deprecated. Please, use new chart library [`@semcore/d3-chart`](/data-display/area-chart/area-chart-d3-code/) instead.
+::: warning
+:rotating_light: Library `@semcore/chart` is deprecated. Please, use new chart library [`@semcore/d3-chart`](/data-display/area-chart/area-chart-d3-code/) instead.
+:::
 
-@## Stacked area chart example
+## Stacked area chart example
 
 @example complex
 
-@## Edge cases
+## Edge cases
 
 @example connectNulls
 
-@## Data loading
+## Data loading
 
 @example skeleton

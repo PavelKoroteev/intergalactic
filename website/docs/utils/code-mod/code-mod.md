@@ -11,7 +11,7 @@ Migrations appeared in the components after major changes. To facilitate code up
 
 **Codemod** starts functioning with the use of CLI commands.
 
-@## How to use in your project
+## How to use in your project
 
 - Run the script in the console with the command.
 
