@@ -14,7 +14,7 @@ const getStyles = () => ({
   get css() {
     let serverStyles = '';
     for (const id in serverMap) {
-      serverStyles += `<style type='text/css' id='${id}'>${serverMap[id]}</style>`;
+      serverStyles += `<style type='text/css' id='${id}'>@layer semcore {${serverMap[id]}}</style>`
     }
     return serverStyles;
   },
@@ -53,7 +53,7 @@ function insert(code: any, hash: any) {
     container.appendChild(css);
   }
 
-  css.innerHTML = code;
+  css.innerHTML = `@layer semcore {${code}}`;
 }
 
 function merge(s1 = {}, s2 = {}) {
