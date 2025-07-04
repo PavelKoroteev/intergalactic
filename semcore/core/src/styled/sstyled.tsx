@@ -12,7 +12,8 @@ const serverMap = reshadowGetStyles().map as any;
 const getStyles = () => ({
   map: serverMap,
   get css() {
-    let serverStyles = '';
+    // Actually, we need to define layers order at first in html somehow.
+    let serverStyles = '<style type="text/css">@layer theme, base, semcore, components, utilities;</style>';
     for (const id in serverMap) {
       serverStyles += `<style type='text/css' id='${id}'>@layer semcore {${serverMap[id]}}</style>`
     }
